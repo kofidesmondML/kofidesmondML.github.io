@@ -62,7 +62,7 @@ facebook:
   username               : Kachinga Silwimba
   app_id                 :
   publisher              :
-og_image                 : "site-logo.png" # Open Graph/Twitter default site image
+og_image                 : #"site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -80,7 +80,7 @@ social:
 # Site Author
 author:
   name             : "Kachinga Silwimba"
-  avatar           : "assets/kachinga.jpg"
+  avatar           : "assets/kachinga.png"
   bio              : "Ph.D. Candidate at Boise State University"
   location         : "Boise, ID, USA"
   googlescholar    : "https://scholar.google.com/citations?user=UluXFnQAAAAJ&hl=en"
