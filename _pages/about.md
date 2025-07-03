@@ -89,7 +89,7 @@ Awards & Fellowships
 ======
 
 - **2025**  
-  - *AWWA Pacific Northwest Scholarship Recipient* –   
+  - *AWWA Pacific Northwest Scholarship Recipient*   
   - *NCAR CESM Tutorial Travel Award* – Funding for advanced CESM model training
 
 - **2024**  
