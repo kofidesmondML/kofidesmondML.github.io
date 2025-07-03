@@ -3,9 +3,11 @@ permalink: /contact/
 title: "Contact"
 author_profile: true
 ---
-Contact information is below, including email and various web services.  This is to make it easy for people to find me when they search for things like "stuart geiger email" and get wrong pages on my site. Also, my full name is Richard Stuart Geiger, even though I just go by Stuart. I show up as "Geiger, Richard Stuart" in various administrative databases. Here are some other places on the Internet where I reside.
+Below is my contact information and links to various platforms where my work and research appear. This makes it easier for people to find the correct pages when searching for “Kachinga Silwimba” or related profiles.
 
-* E-mail: stuart [at] stuartgeiger.com
-* Twitter: [staeiou](http://twitter.com/Staeiou)
-* Google Scholar: [author:geiger-r-stuart](http://scholar.google.com/citations?user=0AvWi3wAAAAJ&hl=en)
-* Wikipedia: [staeiou](http://en.wikipedia.org/wiki/User:Staeiou)
+- **Email:** silwimbajk22 [at] gmail.com  
+- **GitHub:** [kachingasilwimba](https://github.com/kachingasilwimba)  
+- **LinkedIn:** [kachinga-silwimba](https://linkedin.com/in/kachinga-silwimba)  
+- **Google Scholar:** [[Kachinga Silwimba](https://scholar.google.com/](https://scholar.google.com/citations?user=UluXFnQAAAAJ&hl=en))
+- **Twitter:** [@kachingajs](https://x.com/kachingajs)
+
