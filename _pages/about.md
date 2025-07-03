@@ -65,19 +65,19 @@ I am a data scientist and machine learning specialist with over three years of e
 ## Recent Updates
 
 - **June 2025**  
-  Awarded the **AWWA Pacific Northwest Section Scholarship** for graduate research excellence in water and climate data science — recognizing leadership in water resource analytics.
+  Awarded the **[AWWA Pacific Northwest Section Scholarship](https://www.pnws-awwa.org/careers/scholarship-application/)** for graduate research excellence in water and climate data science — recognizing leadership in water resource analytics.
 
 - **Summer 2025**  
-  Received a **Travel Award** to attend the **NCAR CESM Tutorial** in Boulder, CO, for advanced training in Earth system modeling and simulation.
+  Received a **Travel Award** to attend the **[NCAR CESM Tutorial](https://www.cesm.ucar.edu/events/tutorials)** in Boulder, CO, for advanced training in Earth system modeling and simulation.
 
 - **September 2024**  
-  Selected as a **William Averette Anderson Fund Fellow**, with a focus on hazard mitigation and disaster resilience. Participated in national workshops on community-engaged research.
+  Selected as a **[William Averette Anderson Fund Fellow](https://billandersonfund.org/)**, with a focus on hazard mitigation and disaster resilience. Participated in national workshops on community-engaged research.
 
 - **July 2024**  
-  Presented machine learning research on climate pattern analysis at the **SIAM Annual Meeting** and **SIAM Mathematics of Data Science (MDS)** conference, supported by SIAM Travel Awards.
+  Presented machine learning research on climate pattern analysis at the **SIAM Annual Meeting** and **SIAM Mathematics of Data Science (MDS)** conference, supported by [SIAM Travel Awards](https://www.siam.org/conferences-events/conference-support/travel-and-registration-support/).
 
 - **June 2024**  
-  Completed a **Graduate Research Fellowship** at **NCAR Advanced Study Program**, developing adaptive learning techniques for climate model calibration and evaluation.
+  Completed a **Graduate Research Fellowship** at **[NCAR Advanced Study Program](https://edec.ucar.edu/advanced-study-program)**, developing adaptive learning techniques for climate model calibration and evaluation.
 
 ---
 
