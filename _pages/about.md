@@ -84,7 +84,7 @@ I am a data scientist and machine learning specialist with over three years of e
 ## Awards & Fellowships
 
 - **2025**  
-  - *AWWA Pacific Northwest Scholarship* – Recognizing excellence in climate and water data research  
+  - *AWWA Pacific Northwest Scholarship Recipient* –   
   - *NCAR CESM Tutorial Travel Award* – Funding for advanced CESM model training
 
 - **2024**  
