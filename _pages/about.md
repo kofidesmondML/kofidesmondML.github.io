@@ -51,42 +51,55 @@ I am a data scientist and machine learning specialist with over three years of e
   Matplotlib, Cartopy, HoloViews, Plotly, Tableau; experienced in creating insightful and publication-ready graphics for complex scientific data
 
 
+## Education
 
+- **Ph.D. in Computing (Data Science)**  
+  *Boise State University, Boise, ID* — *Expected Fall 2025*  
+  **Research:** Machine learning for climate and hydrological modeling, with emphasis on uncertainty estimation and interpretability in Earth system predictions.
 
-  
+- **M.Sc. in Mathematical Sciences (Climate Science)**  
+  *African Institute for Mathematical Sciences (AIMS), Kigali, Rwanda* — *2020–2021*  
+  **Thesis:** Evaluated CMIP5 and CMIP6 models for simulating precipitation extremes in Southern Africa, offering insights into model improvements for extreme weather prediction.
 
-## Research Projects
+- **B.Sc. in Physics**  
+  *Copperbelt University, Kitwe, Zambia* — *2015–2019*  
+  **Honors Project:** Designed a mechanical valve release system using harmonic motion principles to enhance fluid control efficiency.
 
-- History Matching with Machine Learning: Developing emulators using Gaussian Processes and Evidential Deep Neural Networks to improve total water storage simulations in the Community Land Model, incorporating sensitivity analyses with Fourier amplitude and Sobol indices.
-- Snow Water Equivalent Prediction: Built deep learning models to predict snow water equivalent from atmospheric forcings, enhancing water resource management.
-- Hydrometeorological Analysis: Investigated hydrometeorological controls on transpiration in semi-arid, snow-dominated watersheds using machine learning.
-- Empirical Orthogonal Functions (EOFs): Integrated EOFs into machine learning models to improve spatial climate pattern analysis.
+## Recent Updates
 
-## Updates
+- **June 2025**  
+  Awarded the **AWWA Pacific Northwest Section Scholarship** for graduate research excellence in water and climate data science — recognizing leadership in water resource analytics.
 
-September 2024: Began fellowship with the William Averette Anderson Fund, focusing on disaster resilience and applied research.
-June 2024: Completed fellowship at NSF NCAR, contributing to advancements in land surface modeling.
-2024: Published multiple works, including preprints and conference abstracts at AGU, advancing climate data science.
+- **Summer 2025**  
+  Received a **Travel Award** to attend the **NCAR CESM Tutorial** in Boulder, CO, for advanced training in Earth system modeling and simulation.
 
-## Professional Experience
+- **September 2024**  
+  Selected as a **William Averette Anderson Fund Fellow**, with a focus on hazard mitigation and disaster resilience. Participated in national workshops on community-engaged research.
 
-- Graduate Research Assistant, Boise State University, Aug. 2021 – PresentOptimized climate model data analysis using Python, Xarray, and Dask on HPC clusters. Applied Evidential Deep Learning for uncertainty quantification and led interdisciplinary collaborations using Docker and Git.
-- Advanced Study Program Graduate Research Fellow, NSF NCAR, Mar. 2024 – Jun. 2024Assessed Climate Land Model parameters and analyzed simulation datasets to enhance land surface modeling.
-- William Averette Anderson Fund (BAF) Fellow, Sep. 2024 – PresentEngaged in training on disaster resilience, grant writing, and community-engaged research, networking with disaster management leaders.
-- Vice President, SIAM BSU Chapter, Apr. 2024 – PresentIncreased member engagement by 30% through strategic initiatives and organized networking seminars.
-- Financial Officer, SIAM BSU Chapter, Dec. 2021 – Dec. 2023Managed a $5,000+ budget and secured 20% additional funding through grants.
-- Co-Founder & Project Coordinator, CUPS, May 2016 – Oct. 2019Launched physics seminars and outreach programs, engaging over 200 students.
+- **July 2024**  
+  Presented machine learning research on climate pattern analysis at the **SIAM Annual Meeting** and **SIAM Mathematics of Data Science (MDS)** conference, supported by SIAM Travel Awards.
 
-## Skills
+- **June 2024**  
+  Completed a **Graduate Research Fellowship** at **NCAR Advanced Study Program**, developing adaptive learning techniques for climate model calibration and evaluation.
 
-Programming & Scripting: Python, R, MATLAB, Java, Bash, Scala, PySpark, Linux, SQL
-Machine Learning & AI: TensorFlow, PyTorch, Keras, Scikit-learn, Deep Learning
-Big Data & Cloud Computing: Hadoop, Spark, AWS, Google Cloud, GPU Acceleration, HPC clusters
-Climate & Scientific Tools: GIS, Xarray, Dask, NetCDF, Zarr, CLM5, WRF
-Data Management & MLOps: DVC, Git, Docker, Singularity, CI/CD pipelines
-Data Visualization & Analysis: Matplotlib, Cartopy, Holoviews, Plotly, Tableau
-Software Engineering & HPC Optimization: Slurm, memory management, load balancing
-Model Interpretability: SHAP, Sobol, Fourier Sensitivity Analysis
+---
 
-Contact
-Connect with me via email at [your email] or through my LinkedIn profile.
+## Awards & Fellowships
+
+- **2025**  
+  - *AWWA Pacific Northwest Scholarship* – Recognizing excellence in climate and water data research  
+  - *NCAR CESM Tutorial Travel Award* – Funding for advanced CESM model training
+
+- **2024**  
+  - *William Averette Anderson Fund Fellow* – National fellowship in hazard & disaster mitigation  
+  - *NCAR ASP Graduate Research Fellow* – NSF-supported climate research residency  
+  - *SIAM Travel Awards (AN24, MDS24)* – For presentations at major applied mathematics/data science conferences
+
+- **2021**  
+  - *Boise State GEM Scholarship* – Merit-based graduate award  
+  - *Graduate Assistantship* – Research funding from Boise State University  
+  - *AIMS Master's Scholarship* (Mastercard Foundation) – Full scholarship for climate-focused graduate studies
+
+- **2015**  
+  - *Zambia National Merit Scholarship* – Full undergraduate scholarship based on academic excellence at Copperbelt University
+
