@@ -9,9 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-I’m a data scientist and Ph.D. researcher in Computing at [Boise State University](https://www.boisestate.edu/), specializing in machine learning, high-performance computing (HPC), and climate data science. My work focuses on building scalable deep learning models (PyTorch, TensorFlow) for climate and hydrological applications, with an emphasis on uncertainty quantification and interpretability.
-
-I’m passionate about bridging scientific research with practical solutions — using AI, geospatial modeling, and data engineering to advance data science. I value collaborative, reproducible workflows and thrive in interdisciplinary research environments.
+I’m a data scientist and Ph.D. researcher in Computing at [Boise State University](https://www.boisestate.edu/), specializing in machine learning, high-performance computing (HPC), and climate data science. My work focuses on building scalable deep learning models for computer vision, climate and hydrological applications, with an emphasis on uncertainty quantification and interoperability. I’m passionate about bridging scientific research with practical solutions — using AI, geospatial modeling, and data engineering to advance data science. I value collaborative, reproducible workflows and thrive in interdisciplinary research environments.
 
 Research Interests
 ======
