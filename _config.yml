@@ -85,7 +85,7 @@ author:
   location         : "Boise, ID, USA"
   googlescholar    : "https://scholar.google.com/citations?user=UluXFnQAAAAJ&hl=en"
   email            :
-  bluesky          : "stu.lu" # Replace this with you Bluesky username
+  bluesky          :  # Replace this with you Bluesky username
   uri              : 
   bitbucket        :
   codepen          :
@@ -98,7 +98,7 @@ author:
   keybase          :
   instagram        : 
   lastfm           :
-  linkedin         :
+  LinkedIn         : "https://www.linkedin.com/in/kachinga-silwimba/"
   orcid            : "https://orcid.org/0009-0005-9013-1032"
   pinterest        :
   soundcloud       :
