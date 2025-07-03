@@ -9,5 +9,5 @@ Below is my contact information and links to various platforms where my work and
 - **GitHub:** [kachingasilwimba](https://github.com/kachingasilwimba)  
 - **LinkedIn:** [kachinga-silwimba](https://linkedin.com/in/kachinga-silwimba)  
 - **Google Scholar:** [[Kachinga Silwimba](https://scholar.google.com/](https://scholar.google.com/citations?user=UluXFnQAAAAJ&hl=en))
-- **Twitter:** [@kachingajs](https://x.com/kachingajs)
+- **X:** [@kachingajs](https://x.com/kachingajs)
 
