@@ -15,7 +15,7 @@ Research Interests
 ======
 
 - **Machine Learning Emulators for Climate Models**  
-  I develop deep learning surrogates (e.g., CNNs, LSTMs) to emulate complex climate simulations such as CLM5. These models significantly reduce computational costs while maintaining physical fidelity, enabling faster and scalable climate scenario analysis.
+  I develop deep learning surrogates (e.g., CNNs, LSTMs) to emulate complex climate simulations such as [CLM5](https://www.cesm.ucar.edu/models/clm). These models significantly reduce computational costs while maintaining physical fidelity, enabling faster and scalable climate scenario analysis.
 
 - **Uncertainty Quantification & Interpretability**  
   I apply evidential deep learning to quantify prediction uncertainty in climate and hydrological models. Tools like SHAP and Sobol indices help ensure that model outputs are transparent, interpretable, and scientifically robust.
