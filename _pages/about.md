@@ -9,17 +9,84 @@ redirect_from:
 
 {% include base_path %}
 
-Hi! I’m Stuart, an Assistant Professor at the University of California, San Diego with appointments in the [Department of Communication](https://communication.ucsd.edu) and the [Halıcıoğlu Data Science Institute](https://datascience.ucsd.edu). I am also affiliate faculty in [Computer Science & Engineering](https://cse.ucsd.edu), [Computational Social Science](https://css.ucsd.edu), and the [Institute for Practical Ethics](https://ipe.ucsd.edu), where I lead IPE's [Working Group on Data Governance & Accountability](https://ipe.ucsd.edu/research/data-science.html). 
+## About Me
 
-My work is on the social, cultural, political, and economic aspects of quantification, data science, automation, and AI. I have long focused on the role of AI in the governance and moderation of social media platforms and online communities, but I also care about issues like fairness, privacy, accountability, and labor in many application domains where AI is being deployed. Finally, I take the institutions of scientific and technological research as my object of study, asking how the disciplines and professions are changing around or by quantification, data science, automation, and AI. 
+I am a data scientist and machine learning specialist with over three years of experience applying high-performance computing (HPC) and advanced analytics to climate modeling and geospatial data challenges. Currently, I am pursuing a Ph.D. in Computing (Data Science) at Boise State University, where my research focuses on machine learning for climate and hydrological modeling with an emphasis on uncertainty quantification and interpretability. I have a proven track record of leveraging Python-based deep learning frameworks (PyTorch, TensorFlow) to improve predictive accuracy and computational efficiency in large-scale simulations. As a published author and presenter at international conferences, I am passionate about bridging scientific research and practical solutions – using data-driven methods to advance climate science while optimizing HPC and data engineering workflows for real-world impact. I thrive in interdisciplinary teams and value collaborative, reproducible research, demonstrated by my work integrating climate science domain knowledge with modern AI techniques and scalable computing infrastructure.
 
-## My work and research
-I am an interpretive social scientist trained as an ethnographer, with a broad background in the humanities --- but I have just enough expertise in computer science and data science to make trouble. I consider myself a methodological and disciplinary pluralist, as I draw from and contribute to many different academic disciplines. I use a broad range of qualitative, quantitative, and computational methods to holistically investigate the role of science and technology in our society, culture, politics, and economy. I have a particular focus on decentralized communities and institutions, such as open source software, scientific research, peer production platforms (like Wikipedia), and social media sites.
+## Research Interests
 
-Most of my previous work has focused on [Wikipedia](http://enwp.org/Wikipedia), where I've studied the people and algorithms that produce and maintain an open encyclopedia. I’ve also studied scientific research networks and projects, including the [Long-Term Ecological Research Network](https://lternet.edu/), the [Open Science Grid](https://www.opensciencegrid.org/), and the [Moore-Sloan Data Science Environments](http://msdse.org/). I study topics including newcomer socialization, cooperation and conflict, community governance, specialization and professionalization, information verification and quality control, hackathons and community workshops, the roles of support staff and technicians, bias and discrimination, and diversity and inclusion. I also often focus on how these issues all intersect with and are embedded in the design of software and automated systems.
+- **Machine Learning Emulators for Climate Models**  
+  I develop deep learning surrogates (e.g., CNNs, LSTMs) to emulate complex climate simulations such as CLM5. These models significantly reduce computational costs while maintaining physical fidelity, enabling faster and scalable climate scenario analysis.
 
-## My background and history
-I received my Ph.D from the [UC-Berkeley School of Information](http://ischool.berkeley.edu), my M.A. from the [Communication, Culture, and Technology program](http://cct.georgetown.edu) at Georgetown University, and my B.A. in [the Humanities program](https://liberalarts.utexas.edu/humanities/) at the University of Texas at Austin. For just under five years after receiving my Ph.D, I was at the [Berkeley Institute for Data Science](https://bids.berkeley.edu) as a staff ethnographer. At BIDS, I was first a postdoctoral scholar, then became a principal investigator and led several research and education efforts, including the institute’s Data Science Studies efforts and the [Best Practices in Data Science](https://osf.io/ctfqn/) series.
+- **Uncertainty Quantification & Interpretability**  
+  I apply evidential deep learning to quantify prediction uncertainty in climate and hydrological models. Tools like SHAP and Sobol indices help ensure that model outputs are transparent, interpretable, and scientifically robust.
 
-## My intellectual communities
-I’m a disciplinary nomad, integrating disciplines like computer science, information science, social psychology, and organization/management science with fields like philosophy, sociology, anthropology, and history of science and technology. In terms of academic specialties, I spend a lot of my time in the fields of Science and Technology Studies, Computer-Supported Cooperative Work, and new media / internet studies. Methodologically, while I am trained as a qualitative ethnographer, I also rely on other qualitative, quantitative, and computational methods. I often use more statistical forms of analysis to contextualize and further support more qualitative approaches, frequently collaborating with people from other disciplines. I frequently speak at conferences and events, and I also consult with various groups, organizations, and companies about a wide range of topics.
+- **Geospatial Pattern Analysis**  
+  My work involves identifying and analyzing spatial climate patterns using machine learning and statistical techniques. I implement scalable workflows using Self-Organizing Maps (SOMs) and Empirical Orthogonal Functions (EOFs) in Python/Dask to detect anomalies and validate climate models.
+
+- **High-Performance Computing (HPC) & Big Data**  
+  I optimize environmental data workflows on multi-node GPU-accelerated clusters using tools like Dask, Xarray, Docker, and Singularity. This includes efficient job scheduling, parallel processing, and large-scale data engineering for climate and Earth system modeling.
+
+- **Hybrid Climate Modeling with AI**  
+  I explore integrated modeling approaches that combine physics-based climate models (e.g., CLM5, WRF) with machine learning. This hybrid methodology improves prediction reliability and supports actionable insights for climate mitigation and decision-making.
+
+## Technical Skills
+
+- **Programming & Scripting**  
+  Python (NumPy, Pandas, SciPy, Xarray), R, MATLAB, Java, Scala, PySpark, Bash, SQL
+
+- **Machine Learning & AI**  
+  PyTorch, TensorFlow, Keras, scikit-learn; experience with deep learning (CNNs, RNNs), generative AI, and large language models
+
+- **Big Data & HPC**  
+  Dask, Apache Spark, Hadoop; GPU-accelerated computing, Slurm-based job scheduling, parallel processing, memory optimization; cloud platforms including AWS and Google Cloud
+
+- **Geospatial & Climate Tools**  
+  GIS software, Xarray & Dask for multi-dimensional arrays, NetCDF/Zarr formats, climate modeling tools like WRF and CLM5, and operators like CDO and NCO
+
+- **DevOps & Data Engineering**  
+  Docker, Singularity, CI/CD pipelines, Git/GitHub for version control, Linux shell scripting for automation and reproducible environments
+
+- **Data Visualization**  
+  Matplotlib, Cartopy, HoloViews, Plotly, Tableau; experienced in creating insightful and publication-ready graphics for complex scientific data
+
+
+
+
+  
+
+## Research Projects
+
+- History Matching with Machine Learning: Developing emulators using Gaussian Processes and Evidential Deep Neural Networks to improve total water storage simulations in the Community Land Model, incorporating sensitivity analyses with Fourier amplitude and Sobol indices.
+- Snow Water Equivalent Prediction: Built deep learning models to predict snow water equivalent from atmospheric forcings, enhancing water resource management.
+- Hydrometeorological Analysis: Investigated hydrometeorological controls on transpiration in semi-arid, snow-dominated watersheds using machine learning.
+- Empirical Orthogonal Functions (EOFs): Integrated EOFs into machine learning models to improve spatial climate pattern analysis.
+
+## Updates
+
+September 2024: Began fellowship with the William Averette Anderson Fund, focusing on disaster resilience and applied research.
+June 2024: Completed fellowship at NSF NCAR, contributing to advancements in land surface modeling.
+2024: Published multiple works, including preprints and conference abstracts at AGU, advancing climate data science.
+
+## Professional Experience
+
+- Graduate Research Assistant, Boise State University, Aug. 2021 – PresentOptimized climate model data analysis using Python, Xarray, and Dask on HPC clusters. Applied Evidential Deep Learning for uncertainty quantification and led interdisciplinary collaborations using Docker and Git.
+- Advanced Study Program Graduate Research Fellow, NSF NCAR, Mar. 2024 – Jun. 2024Assessed Climate Land Model parameters and analyzed simulation datasets to enhance land surface modeling.
+- William Averette Anderson Fund (BAF) Fellow, Sep. 2024 – PresentEngaged in training on disaster resilience, grant writing, and community-engaged research, networking with disaster management leaders.
+- Vice President, SIAM BSU Chapter, Apr. 2024 – PresentIncreased member engagement by 30% through strategic initiatives and organized networking seminars.
+- Financial Officer, SIAM BSU Chapter, Dec. 2021 – Dec. 2023Managed a $5,000+ budget and secured 20% additional funding through grants.
+- Co-Founder & Project Coordinator, CUPS, May 2016 – Oct. 2019Launched physics seminars and outreach programs, engaging over 200 students.
+
+## Skills
+
+Programming & Scripting: Python, R, MATLAB, Java, Bash, Scala, PySpark, Linux, SQL
+Machine Learning & AI: TensorFlow, PyTorch, Keras, Scikit-learn, Deep Learning
+Big Data & Cloud Computing: Hadoop, Spark, AWS, Google Cloud, GPU Acceleration, HPC clusters
+Climate & Scientific Tools: GIS, Xarray, Dask, NetCDF, Zarr, CLM5, WRF
+Data Management & MLOps: DVC, Git, Docker, Singularity, CI/CD pipelines
+Data Visualization & Analysis: Matplotlib, Cartopy, Holoviews, Plotly, Tableau
+Software Engineering & HPC Optimization: Slurm, memory management, load balancing
+Model Interpretability: SHAP, Sobol, Fourier Sensitivity Analysis
+
+Contact
+Connect with me via email at [your email] or through my LinkedIn profile.
