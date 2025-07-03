@@ -11,7 +11,7 @@ redirect_from:
 
 ## About Me
 
-I am a data scientist and machine learning specialist with over three years of experience applying high-performance computing (HPC) and advanced analytics to climate modeling and geospatial data challenges. Currently, I am pursuing a Ph.D. in Computing (Data Science) at Boise State University, where my research focuses on machine learning for climate and hydrological modeling with an emphasis on uncertainty quantification and interpretability. I have a proven track record of leveraging Python-based deep learning frameworks (PyTorch, TensorFlow) to improve predictive accuracy and computational efficiency in large-scale simulations. As a published author and presenter at international conferences, I am passionate about bridging scientific research and practical solutions – using data-driven methods to advance climate science while optimizing HPC and data engineering workflows for real-world impact. I thrive in interdisciplinary teams and value collaborative, reproducible research, demonstrated by my work integrating climate science domain knowledge with modern AI techniques and scalable computing infrastructure.
+I am a data scientist and machine learning specialist with over three years of experience applying high-performance computing (HPC) and advanced analytics to climate modeling and geospatial data challenges. Currently, I am pursuing a Ph.D. in Computing (Data Science) at [Boise State University](https://www.boisestate.edu/), where my research focuses on machine learning for climate and hydrological modeling with an emphasis on uncertainty quantification and interpretability. I have a proven track record of leveraging Python-based deep learning frameworks (PyTorch, TensorFlow) to improve predictive accuracy and computational efficiency in large-scale simulations. As a published author and presenter at international conferences, I am passionate about bridging scientific research and practical solutions – using data-driven methods to advance climate science while optimizing HPC and data engineering workflows for real-world impact. I thrive in interdisciplinary teams and value collaborative, reproducible research, demonstrated by my work integrating climate science domain knowledge with modern AI techniques and scalable computing infrastructure.
 
 ## Research Interests
 
@@ -54,16 +54,13 @@ I am a data scientist and machine learning specialist with over three years of e
 ## Education
 
 - **Ph.D. in Computing (Data Science)**  
-  *Boise State University, Boise, ID* — *Expected Fall 2025*  
-  **Research:** Machine learning for climate and hydrological modeling, with emphasis on uncertainty estimation and interpretability in Earth system predictions.
+  *[Boise State University](https://www.boisestate.edu/), Boise, ID* — *Expected Fall 2025*  
 
 - **M.Sc. in Mathematical Sciences (Climate Science)**  
-  *African Institute for Mathematical Sciences (AIMS), Kigali, Rwanda* — *2020–2021*  
-  **Thesis:** Evaluated CMIP5 and CMIP6 models for simulating precipitation extremes in Southern Africa, offering insights into model improvements for extreme weather prediction.
+  *[African Institute for Mathematical Sciences (AIMS)](https://aims.ac.rw/), Kigali, Rwanda* — *2020–2021*  
 
 - **B.Sc. in Physics**  
-  *Copperbelt University, Kitwe, Zambia* — *2015–2019*  
-  **Honors Project:** Designed a mechanical valve release system using harmonic motion principles to enhance fluid control efficiency.
+  *[Copperbelt University](https://www.cbu.ac.zm/), Kitwe, Zambia* — *2015–2019*  
 
 ## Recent Updates
 
