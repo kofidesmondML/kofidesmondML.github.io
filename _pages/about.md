@@ -13,7 +13,8 @@ About Me
 ======
 I am a data scientist and machine learning specialist with over three years of experience applying high-performance computing (HPC) and advanced analytics to climate modeling and geospatial data challenges. Currently, I am pursuing a Ph.D. in Computing (Data Science) at [Boise State University](https://www.boisestate.edu/), where my research focuses on machine learning for climate and hydrological modeling with an emphasis on uncertainty quantification and interpretability. I have a proven track record of leveraging Python-based deep learning frameworks (PyTorch, TensorFlow) to improve predictive accuracy and computational efficiency in large-scale simulations. As a published author and presenter at international conferences, I am passionate about bridging scientific research and practical solutions – using data-driven methods to advance climate science while optimizing HPC and data engineering workflows for real-world impact. I thrive in interdisciplinary teams and value collaborative, reproducible research, demonstrated by my work integrating climate science domain knowledge with modern AI techniques and scalable computing infrastructure.
 
-## Research Interests
+Research Interests
+======
 
 - **Machine Learning Emulators for Climate Models**  
   I develop deep learning surrogates (e.g., CNNs, LSTMs) to emulate complex climate simulations such as CLM5. These models significantly reduce computational costs while maintaining physical fidelity, enabling faster and scalable climate scenario analysis.
@@ -30,7 +31,8 @@ I am a data scientist and machine learning specialist with over three years of e
 - **Hybrid Climate Modeling with AI**  
   I explore integrated modeling approaches that combine physics-based climate models (e.g., CLM5, WRF) with machine learning. This hybrid methodology improves prediction reliability and supports actionable insights for climate mitigation and decision-making.
 
-## Technical Skills
+Technical Skills
+======
 
 - **Programming & Scripting**  
   Python (NumPy, Pandas, SciPy, Xarray), R, MATLAB, Java, Scala, PySpark, Bash, SQL
@@ -51,7 +53,8 @@ I am a data scientist and machine learning specialist with over three years of e
   Matplotlib, Cartopy, HoloViews, Plotly, Tableau; experienced in creating insightful and publication-ready graphics for complex scientific data
 
 
-## Education
+Education
+======
 
 - **Ph.D. in Computing (Data Science)**  
   *[Boise State University](https://www.boisestate.edu/), Boise, ID* — *Expected Fall 2025*  
@@ -62,7 +65,8 @@ I am a data scientist and machine learning specialist with over three years of e
 - **B.Sc. in Physics**  
   *[Copperbelt University](https://www.cbu.ac.zm/), Kitwe, Zambia* — *2015–2019*  
 
-## Recent Updates
+Recent Updates
+======
 
 - **June 2025**  
   Awarded the **[AWWA Pacific Northwest Section Scholarship](https://www.pnws-awwa.org/careers/scholarship-application/)** for graduate research excellence in water and climate data science — recognizing leadership in water resource analytics.
@@ -81,7 +85,8 @@ I am a data scientist and machine learning specialist with over three years of e
 
 ---
 
-## Awards & Fellowships
+Awards & Fellowships
+======
 
 - **2025**  
   - *AWWA Pacific Northwest Scholarship Recipient* –   
