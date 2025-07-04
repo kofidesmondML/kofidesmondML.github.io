@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Emulating and Evaluating Uncertainty in CLM5 Simulations Using Evidential Deep Neural Networks  
-**Event:** [American Geophysical Union 2024 Annual Meeting](https://www.agu.org/annual-meeting-2024){: .btn .btn-outline .mr-4}      
+**Event:** [American Geophysical Union 2024 Annual Meeting](https://www.agu.org/annual-meeting-2024)        
 **Location:** Washington, D.C.  
 **Date:** December 2024  
 
