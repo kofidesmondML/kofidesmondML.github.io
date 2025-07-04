@@ -1,4 +1,5 @@
 ---
+permalink: /
 layout: archive
 title: "Newsletters"
 permalink: /newsletter/
