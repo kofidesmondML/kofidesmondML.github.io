@@ -5,6 +5,7 @@ permalink: /newsletter/
 author_profile: true
 ---
 
+
 **SIAM-Published Article**  
 **Title:** Impact of Soil Hydraulic Parameter Variability on Soil Moisture: An Empirical Orthogonal Function Analysis 
 **Published:** February 6, 2025  
@@ -15,6 +16,16 @@ This article delves into the complexities of soil hydraulic parameters and their
 **Read the article:** [SIAM News](https://www.siam.org/publications/siam-news/articles/impact-of-soil-hydraulic-parameter-variability-on-soil-moisture-an-empirical-orthogonal-function-analysis)  
 **Website:** [siam.org](https://www.siam.org)
 
+---
+**Zambia Daily Mail Article**  
+**Title:** Can Foot-Flush Reduce Cholera Spreading? 
+**Published:** December 5, 2024  
+
+**Summary:**  
+In response to Zambia's recurring cholera outbreaks, Kachinga Silwimba, a scholar from the Copperbelt University, proposed an innovative foot-flushing toilet mechanism in his 2019 undergraduate thesis titled "Automatic Toilet-Valve Releasing Mechanism." This design aims to minimize hand contact with toilet surfaces, thereby reducing the transmission of cholera and other contact-based diseases. Silwimba believes the mechanism is both achievable and affordable, though he is currently seeking sponsorship to bring the concept to fruition. The idea draws inspiration from foot-operated hand-wash stations popularized during the COVID-19 pandemic and aligns with global trends favoring hands-free sanitation solutions.:contentReference[oaicite:8]{index=8}
+
+**Read the article:** [Zambia Daily Mail](https://www.daily-mail.co.zm/2024/12/05/can-foot-flush-reduce-cholera-spreading/)  
+**Website:** [daily-mail.co.zm](https://www.daily-mail.co.zm)
 
 ---
 **Boise State University Research Highlight**  
