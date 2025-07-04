@@ -10,9 +10,8 @@ redirect_from:
 {% include base_path %}
 
 I’m a data scientist and Ph.D. researcher in Computing (Data Science) at [Boise State University](https://www.boisestate.edu/), specializing in machine learning, [high-performance computing (HPC)](https://www.ibm.com/think/topics/hpc), and climate data science. My work focuses on building scalable deep learning models for [computer vision](https://www.ibm.com/think/topics/computer-vision), climate, and hydrological applications, with an emphasis on [uncertainty quantification](https://en.wikipedia.org/wiki/Uncertainty_quantification) and [interoperability](https://en.wikipedia.org/wiki/Interoperability). Furthermore, passionate about bridging scientific research with practical solutions — using AI, geospatial modeling, and data engineering to advance hydrological sciences and data science. I value collaborative and reproducible workflows, and I thrive in interdisciplinary research environments.
-<h2 style="color: teal;">Research Interests</h2>
 
-Research Interests
+<h2 style="color: teal;">Research Interests</h2>
 ======
 
 - **Machine Learning Emulators for Climate Models**  
