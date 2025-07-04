@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Selected Conference Presentations"
+title: "Selected Conference Talks"
 permalink: /presentations/
 author_profile: true
 ---
