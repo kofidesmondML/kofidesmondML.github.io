@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Newsletter"
+title: "Newsletters"
 permalink: /newsletter/
 author_profile: true
 ---
