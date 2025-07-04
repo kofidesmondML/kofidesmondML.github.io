@@ -6,11 +6,11 @@ main:
   - title: "Newsletters"
     url: /newsletter/    
     
-  - title: "Talks"
-    url: /presentations/
-
   # - title: "Talks"
-  #   url: /talks/
+  #   url: /presentations/
+
+  - title: "Talks"
+    url: /sitemaps/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
