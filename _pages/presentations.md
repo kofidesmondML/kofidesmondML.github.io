@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Emulating and Evaluating Uncertainty in CLM5 Simulations Using Evidential Deep Neural Networks  
-**Event:** [American Geophysical Union 2024 Annual Meeting](https://www.agu.org/annual-meeting-2024)  
+**Event:** [American Geophysical Union 2024 Annual Meeting](https://www.agu.org/annual-meeting-2024){: .btn .btn-outline .mr-4}  
 **Location:** Washington, D.C.  
 **Date:** December 2024  
 
@@ -14,7 +14,7 @@ author_profile: true
 
 ---
 ## History Matching with Evidential Deep Neural Networks to Improve Terrestrial Water Storage Simulations in the Community Land Model  
-**Event:** [HydroML 2024 Symposium](https://www.pnnl.gov/events/hydroml-2024-symposium)  
+**Event:** [HydroML 2024 Symposium](https://www.pnnl.gov/events/hydroml-2024-symposium){: .btn .btn-outline .mr-4} 
 **Location:** Richland, WA  
 **Date:** May 2024  
 
@@ -22,7 +22,7 @@ author_profile: true
 
 ---
 ## Emulating and Evaluating Uncertainty Estimates in CLM5 Terrestrial Water Storage Simulations Using Evidential Deep Neural Networks  
-**Event:** [9th Annual CESM Workshop](https://www.cesm.ucar.edu/events/351/agenda) 
+**Event:** [9th Annual CESM Workshop](https://www.cesm.ucar.edu/events/351/agenda){: .btn .btn-outline .mr-4} 
 **Location:** Boulder, CO  
 **Date:** June 2024  
 
@@ -30,7 +30,7 @@ author_profile: true
 
 ---
 ## Combining Empirical Orthogonal Functions and Self-Organizing Maps to Understand Soil Parameter Influence in CLM5  
-**Event:** [College of Engineering Fall Design Showcase](https://www.boisestate.edu/coen/news-events/annual-design-showcase/) 
+**Event:** [College of Engineering Fall Design Showcase](https://www.boisestate.edu/coen/news-events/annual-design-showcase/){: .btn .btn-outline .mr-4} 
 **Location:** Boise, ID  
 **Date:** November 2023  
 
