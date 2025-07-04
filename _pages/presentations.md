@@ -16,7 +16,7 @@ author_profile: true
 **Location:** Boise, ID, USA    
 **Date:** February 18, 2025  
 
-- Evaluated soil moisture variability across CONUS using EOF analysis [spuds](https://sites.google.com/boisestate.edu/spuds/home) 
+- Evaluated soil moisture variability across CONUS using EOF analysis 
 - Clustered moisture patterns with EOF–SOM to refine parameter calibration  
 - Quantified epistemic and aleatoric uncertainties in LAI via EDNNs  
 - Extended EDNN framework to predict hydrological variables in ungauged basins
