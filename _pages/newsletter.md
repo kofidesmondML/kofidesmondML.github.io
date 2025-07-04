@@ -15,7 +15,8 @@ author_profile: true
 This study uses Empirical Orthogonal Function (EOF) analysis to reveal how variations in soil hydraulic parameters drive major differences in soil moisture simulations. The work highlights the uncertainty introduced by different parameterization schemes and calls for improved soil-property representations in land surface models.  
 
 [Read on SIAM News](https://www.siam.org/publications/siam-news/articles/impact-of-soil-hydraulic-parameter-variability-on-soil-moisture-an-empirical-orthogonal-function-analysis){: .btn .btn-outline .mr-4}
----
+
+---  
 ## Zambia Daily Mail Article  
 **Can Foot-Flush Reduce Cholera Spreading?**   
 **Published:** December 5, 2024  
@@ -24,6 +25,7 @@ This study uses Empirical Orthogonal Function (EOF) analysis to reveal how varia
 Drawing on his 2019 thesis, Kachinga Silwimba proposes a foot-operated toilet valve to cut hand contact with surfaces and curb cholera transmission. Inspired by pandemic-era hands-free designs, the mechanism promises affordability and ease of adoption—pending sponsorship for prototyping.  
 
 [Read on Zambia Daily Mail](https://www.daily-mail.co.zm/2024/12/05/can-foot-flush-reduce-cholera-spreading/){: .btn .btn-outline .mr-4}
+
 ---
 ## Zambia Daily Mail Article  
 **Africa Needs More Investment in Climate Action**   
@@ -33,6 +35,7 @@ Drawing on his 2019 thesis, Kachinga Silwimba proposes a foot-operated toilet va
 Highlighting a US$52.7 billion annual gap in adaptation funding, Kachinga Silwimba warns that underinvestment leaves African nations exposed to droughts, power crises, and other climate risks. He urges stronger collaboration between researchers and policymakers to secure the resources needed for effective mitigation and resilience.  
 
 [Read on Zambia Daily Mail](https://www.daily-mail.co.zm/2024/12/03/africa-needs-more-investment-in-climate-action/){: .btn .btn-outline .mr-4}
+
 ---
 ## Boise State University Research Highlight  
 **Efficient Analysis of Large Climate Datasets**  
