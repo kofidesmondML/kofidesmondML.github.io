@@ -55,13 +55,13 @@ Education
 ======
 
 - **Ph.D. in Computing (Data Science)**  
-  *[Boise State University](https://www.boisestate.edu/), Boise, ID* — *Expected Fall 2025*  
+  [Boise State University](https://www.boisestate.edu/), Boise, ID — Expected Fall 2025  
 
 - **M.Sc. in Mathematical Sciences (Climate Science)**  
-  *[African Institute for Mathematical Sciences (AIMS)](https://aims.ac.rw/), Kigali, Rwanda* — *2020–2021*  
+  [African Institute for Mathematical Sciences (AIMS)](https://aims.ac.rw/), Kigali, Rwanda — 2020–2021  
 
 - **B.Sc. in Physics**  
-  *[Copperbelt University](https://www.cbu.ac.zm/), Kitwe, Zambia* — *2015–2019*  
+  [Copperbelt University](https://www.cbu.ac.zm/), Kitwe, Zambia — 2015–2019  
 
 Recent Updates
 ======
