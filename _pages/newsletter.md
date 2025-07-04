@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 ## SIAM-Published Article 
-**Impact of Soil Hydraulic Parameter Variability on Soil Moisture: An Empirical Orthogonal Function Analysis**
+**Impact of Soil Hydraulic Parameter Variability on Soil Moisture: An Empirical Orthogonal Function Analysis**   
 **Published:** February 6, 2025  
 
 **Summary:**  
