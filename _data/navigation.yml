@@ -6,8 +6,8 @@ main:
   - title: "Newsletters"
     url: /newsletter/    
     
-  # - title: "Expressions"
-  #   url: /expressions/
+  - title: "Selected Conference Presentations"
+    url: /presentations/
 
   # - title: "Teaching"
   #   url: /teaching/
