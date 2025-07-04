@@ -34,8 +34,8 @@ author_profile: true
 **Date:** December 2024  
 
 - Presented a novel approach utilizing EDNN to deliver enhanced uncertainty estimates in CLM5 simulations and reduce computational costs.
+  
 ---
-
 ## Assessing Soil Hydraulic Parameter Impacts and Performing Uncertainty Quantification in Climate Model Simulations Using Advanced Analytical Techniques  
 **Event:** <a href="https://sites.google.com/boisestate.edu/spuds/home"
    style="display:inline-block;
