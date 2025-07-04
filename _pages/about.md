@@ -57,7 +57,7 @@ Education
 - **Ph.D. in Computing (Data Science)**  
   [Boise State University](https://www.boisestate.edu/), Boise, ID, USA — Expected Fall 2025  
 
-- **M.Sc. in Mathematical Sciences (Climate Science)**  
+- **M.Sc. in Mathematical Sciences (Climate Data Science)**  
   [African Institute for Mathematical Sciences (AIMS)](https://aims.ac.rw/), Kigali, Rwanda — 2020–2021  
 
 - **B.Sc. in Physics**  
@@ -67,7 +67,7 @@ Recent Updates
 ======
 
 - **June 2025**  
-  Awarded the **[AWWA Pacific Northwest Section Scholarship](https://www.pnws-awwa.org/careers/scholarship-application/)** for graduate research excellence in water and climate data science — recognizing leadership in water resource analytics.
+  Awarded the **[AWWA Pacific Northwest Section Scholarship](https://www.pnws-awwa.org/careers/scholarship-application/)** for graduate research excellence in water and climate data science, recognizing leadership in water resource analytics.
 
 - **Summer 2025**  
   Received a **Travel Award** to attend the **[NCAR CESM Tutorial](https://www.cesm.ucar.edu/events/tutorials)** in Boulder, CO, for advanced training in Earth system modeling and simulation.
