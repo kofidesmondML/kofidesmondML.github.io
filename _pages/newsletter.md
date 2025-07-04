@@ -7,7 +7,6 @@ author_profile: true
 
 **SIAM-Published Article**  
 **Title:** Impact of Soil Hydraulic Parameter Variability on Soil Moisture: An Empirical Orthogonal Function Analysis 
-**Author:** Kachinga Silwimba  
 **Published:** February 6, 2025  
 
 **Summary:**  
