@@ -43,6 +43,6 @@ Highlighting a US$52.7 billion annual gap in adaptation funding, Kachinga Silwim
 **Published:** November 29, 2023  
 
 **Summary:**  
-Kachinga Silwimba and Alejandro N. Flores combine climate-model emulation with EOF analysis on CLM5 outputs to slash computational costs. Leveraging HPC, Python, and statistical tools, they extract key patterns from massive datasets, making large-scale climate studies faster and more accessible.  
+Kachinga Silwimba combines climate-model emulation with EOF analysis on CLM5 outputs to slash computational costs. Leveraging HPC, Python, and statistical tools, they extract key patterns from massive datasets, making large-scale climate studies faster and more accessible.  
 
 [Read on Boise State University](https://www.boisestate.edu/rcs/2023/11/29/research-highlight-efficient-analysis-of-large-climate-datasets/)
