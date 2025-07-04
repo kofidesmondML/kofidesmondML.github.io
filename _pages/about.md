@@ -76,7 +76,7 @@ Recent Updates
   Selected as a **[William Averette Anderson Fund Fellow](https://billandersonfund.org/)**, with a focus on hazard mitigation and disaster resilience. Participated in national workshops on community-engaged research.
 
 - **July 2024**  
-  Presented machine learning research on climate pattern analysis at the **SIAM Annual Meeting** and **SIAM Mathematics of Data Science (MDS)** conference, supported by [SIAM Travel Awards](https://www.siam.org/conferences-events/conference-support/travel-and-registration-support/).
+  Presented machine learning research on climate pattern analysis at the **SIAM Annual Meeting** and **[SIAM Mathematics of Data Science (MDS)](https://www.siam.org/conferences-events/past-event-archive/mds24/)** conference, supported by [SIAM Travel Awards](https://www.siam.org/conferences-events/conference-support/travel-and-registration-support/).
 
 - **June 2024**  
   Completed a **Graduate Research Fellowship** at **[NCAR Advanced Study Program](https://edec.ucar.edu/advanced-study-program)**, developing adaptive learning techniques for climate model calibration and evaluation.
