@@ -17,7 +17,7 @@ This study uses Empirical Orthogonal Function (EOF) analysis to reveal how varia
 [Read on SIAM News](https://www.siam.org/publications/siam-news/articles/impact-of-soil-hydraulic-parameter-variability-on-soil-moisture-an-empirical-orthogonal-function-analysis){: .btn .btn-outline .mr-4}
 ---
 ## Zambia Daily Mail Article  
-**Can Foot-Flush Reduce Cholera Spreading?**
+**Can Foot-Flush Reduce Cholera Spreading?**   
 **Published:** December 5, 2024  
 
 **Summary:**  
@@ -26,7 +26,7 @@ Drawing on his 2019 thesis, Kachinga Silwimba proposes a foot-operated toilet va
 [Read on Zambia Daily Mail](https://www.daily-mail.co.zm/2024/12/05/can-foot-flush-reduce-cholera-spreading/){: .btn .btn-outline .mr-4}
 ---
 ## Zambia Daily Mail Article  
-**Africa Needs More Investment in Climate Action**
+**Africa Needs More Investment in Climate Action**   
 **Published:** December 3, 2024  
 
 **Summary:**  
@@ -35,7 +35,7 @@ Highlighting a US$52.7 billion annual gap in adaptation funding, Kachinga Silwim
 [Read on Zambia Daily Mail](https://www.daily-mail.co.zm/2024/12/03/africa-needs-more-investment-in-climate-action/){: .btn .btn-outline .mr-4}
 ---
 ## Boise State University Research Highlight  
-**Efficient Analysis of Large Climate Datasets**
+**Efficient Analysis of Large Climate Datasets**  
 **Published:** November 29, 2023  
 
 **Summary:**  
