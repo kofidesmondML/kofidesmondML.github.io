@@ -20,7 +20,13 @@ author_profile: true
 
 ---
 ## History Matching with Evidential Deep Neural Networks to Improve Terrestrial Water Storage Simulations in the Community Land Model  
-**Event:** [HydroML 2024 Symposium](https://www.pnnl.gov/events/hydroml-2024-symposium)      
+**Event:** <a href="https://www.pnnl.gov/events/hydroml-2024-symposium"
+   style="display:inline-block;
+          color:#007bff;
+          text-decoration:none;
+          margin-right:1rem;">
+  HydroML 2024 Symposium
+</a>       
 **Location:** Richland, WA  
 **Date:** May 2024  
 
@@ -28,15 +34,27 @@ author_profile: true
 
 ---
 ## Emulating and Evaluating Uncertainty Estimates in CLM5 Terrestrial Water Storage Simulations Using Evidential Deep Neural Networks  
-**Event:** [9th Annual CESM Workshop](https://www.cesm.ucar.edu/events/351/agenda)     
+**Event:** <a href="https://www.cesm.ucar.edu/events/351/agenda"
+   style="display:inline-block;
+          color:#007bff;
+          text-decoration:none;
+          margin-right:1rem;">
+  29th Annual CESM Workshop
+</a>   
 **Location:** Boulder, CO  
 **Date:** June 2024  
 
 - Highlighted how pinpointing high-uncertainty regions guides better decision-making and model refinements in climate simulations.
 
 ---
-## Combining Empirical Orthogonal Functions and Self-Organizing Maps to Understand Soil Parameter Influence in CLM5  
-**Event:** [College of Engineering Fall Design Showcase](https://www.boisestate.edu/coen/news-events/annual-design-showcase/)      
+## Combining Empirical Orthogonal Functions and Self-Organizing Maps to Understand Soil Parameter Influence in CLM5   
+**Event:** <a href="https://www.boisestate.edu/coen/news-events/annual-design-showcase/"
+   style="display:inline-block;
+          color:#007bff;
+          text-decoration:none;
+          margin-right:1rem;"> 
+  College of Engineering Fall Design Showcase
+</a>    
 **Location:** Boise, ID  
 **Date:** November 2023  
 
@@ -44,7 +62,13 @@ author_profile: true
 
 ---
 ## Assessing the Effect of Soil Parameter Setups on Soil Moisture in CLM5 over the Continental U.S. Using EOF Analysis  
-**Event:** [Boise State University Graduate Showcase](https://www.boisestate.edu/graduatecollege/showcase/)  
+**Event:** <a href="https://www.boisestate.edu/graduatecollege/showcase/"
+   style="display:inline-block;
+          color:#007bff;
+          text-decoration:none;
+          margin-right:1rem;"> 
+  Boise State University Graduate Showcase
+</a>      
 **Location:** Boise, ID  
 **Date:** April 2023  
 
@@ -52,7 +76,13 @@ author_profile: true
 
 ---
 ## Integrating Empirical Orthogonal Functions into Machine Learning Workflows  
-**Event:** [Research Computing Days](https://www.boisestate.edu/rcs/research-computing-day/)  
+**Event:** <a href="https://www.boisestate.edu/rcs/research-computing-day/"
+   style="display:inline-block;
+          color:#007bff;
+          text-decoration:none;
+          margin-right:1rem;"> 
+  Research Computing Days
+</a>     
 **Location:** Boise, ID  
 **Date:** April 2023  
 
