@@ -87,19 +87,19 @@ Awards & Fellowships
 ======
 
 - **2025**  
-  - *AWWA Pacific Northwest Scholarship Recipient*   
-  - *[NCAR CESM Tutorial](https://www.cesm.ucar.edu/events/tutorials/cesm) Travel Award* – Funding for advanced CESM model training
+  - AWWA Pacific Northwest Scholarship Recipient   
+  - [NCAR CESM Tutorial](https://www.cesm.ucar.edu/events/tutorials/cesm) Travel Award – Funding for advanced CESM model training
 
 - **2024**  
-  - *William Averette Anderson Fund Fellow* – National fellowship in hazard & disaster mitigation  
-  - *NCAR ASP Graduate Research Fellow* – NSF-supported climate research residency  
-  - *SIAM Travel Awards (AN24, MDS24)* – For presentations at major applied mathematics/data science conferences
+  - William Averette Anderson Fund Fellow – National fellowship in hazard & disaster mitigation  
+  - NCAR ASP Graduate Research Fellow – NSF-supported climate research residency  
+  - SIAM Travel Awards (AN24, MDS24) – For presentations at major applied mathematics/data science conferences
 
 - **2021**  
-  - *[Boise State GEM Scholarship](https://www.boisestate.edu/graduatecollege/funding/merit-based-gem-scholarship/)* – Merit-based graduate award  
-  - *Graduate Assistantship* – Research funding from Boise State University  
-  - *AIMS Master's Scholarship* (Mastercard Foundation) – Full scholarship for climate-focused graduate studies
+  - [Boise State GEM Scholarship](https://www.boisestate.edu/graduatecollege/funding/merit-based-gem-scholarship/) – Merit-based graduate award  
+  - Graduate Assistantship – Research funding from Boise State University  
+  - AIMS Master's Scholarship (Mastercard Foundation) – Full scholarship for climate-focused graduate studies
 
 - **2015**  
-  - *Zambia National Merit Scholarship* – Full undergraduate scholarship based on academic excellence at Copperbelt University
+  - Zambia National Merit Scholarship – Full undergraduate scholarship based on academic excellence at Copperbelt University
 
