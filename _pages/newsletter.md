@@ -9,6 +9,7 @@ author_profile: true
 
 ## SIAM-Published Article 
 **Impact of Soil Hydraulic Parameter Variability on Soil Moisture: An Empirical Orthogonal Function Analysis**
+
 **Published:** February 6, 2025  
 
 **Summary:**  
@@ -19,6 +20,7 @@ This study uses Empirical Orthogonal Function (EOF) analysis to reveal how varia
 ---
 ## Zambia Daily Mail Article  
 **Can Foot-Flush Reduce Cholera Spreading?**
+
 **Published:** December 5, 2024  
 
 **Summary:**  
@@ -29,6 +31,7 @@ Drawing on his 2019 thesis, Kachinga Silwimba proposes a foot-operated toilet va
 ---
 ## Zambia Daily Mail Article  
 **Africa Needs More Investment in Climate Action**
+
 **Published:** December 3, 2024  
 
 **Summary:**  
@@ -38,7 +41,8 @@ Highlighting a US$52.7 billion annual gap in adaptation funding, Kachinga Silwim
 
 ---
 ## Boise State University Research Highlight  
-**Efficient Analysis of Large Climate Datasets** 
+**Efficient Analysis of Large Climate Datasets**
+
 **Published:** November 29, 2023  
 
 **Summary:**  
