@@ -5,7 +5,6 @@ permalink: /newsletter/
 author_profile: true
 ---
 
-
 **SIAM-Published Article**  
 **Title:** Impact of Soil Hydraulic Parameter Variability on Soil Moisture: An Empirical Orthogonal Function Analysis 
 **Published:** February 6, 2025  
@@ -26,6 +25,20 @@ In response to Zambia's recurring cholera outbreaks, Kachinga Silwimba, a schola
 
 **Read the article:** [Zambia Daily Mail](https://www.daily-mail.co.zm/2024/12/05/can-foot-flush-reduce-cholera-spreading/)  
 **Website:** [daily-mail.co.zm](https://www.daily-mail.co.zm)
+
+
+---
+**Zambia Daily Mail Article**  
+**Title:** *Africa Needs More Investment in Climate Action*  
+**Published:** December 3, 2024  
+
+**Summary:**  
+Researcher Kachinga Silwimba emphasizes the urgent need for increased investment in climate action across Africa. Citing a World Economic Forum report, he notes that the continent requires an estimated US$52.7 billion annually for climate adaptation. However, this funding is often unmet, leaving countries like Zambia and Zimbabwe vulnerable to climate-induced challenges such as droughts and power crises.
+Silwimba advocates for greater attention to scientific research and proactive measures to mitigate the impacts of climate change. He warns that without adequate investment, Africa will continue to face severe consequences, including loss of life and property. He calls for collaboration between scientists and policymakers to develop effective solutions.
+
+**Read the article:** [Zambia Daily Mail](https://www.daily-mail.co.zm/2024/12/03/africa-needs-more-investment-in-climate-action/)  
+**Website:** [daily-mail.co.zm](https://www.daily-mail.co.zm)
+
 
 ---
 **Boise State University Research Highlight**  
