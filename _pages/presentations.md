@@ -12,7 +12,8 @@ author_profile: true
           text-decoration:none;
           margin-right:1rem;">
   The Scientific comPUting and Data Science (SPUDS) Seminar
-</a>     
+</a>    
+**Location:** Boise, ID, USA    
 **Date:** February 18, 2025  
 
 - Evaluated soil moisture variability across CONUS using EOF analysis  
@@ -29,7 +30,7 @@ author_profile: true
           margin-right:1rem;">
   American Geophysical Union 2024 Annual Meeting
 </a>      
-**Location:** Washington, D.C.  
+**Location:** Washington, D.C., USA    
 **Date:** December 2024  
 
 - Presented a novel approach utilizing EDNN to deliver enhanced uncertainty estimates in CLM5 simulations and reduce computational costs.
@@ -42,7 +43,8 @@ author_profile: true
           text-decoration:none;
           margin-right:1rem;">
   The Scientific comPUting and Data Science (SPUDS) Seminar
-</a>  
+</a>     
+**Location:** Boise, ID, USA     
 **Date:** October 22, 2024  
 
 - Identified dominant soil moisture variability modes with EOF analysis  
@@ -59,7 +61,7 @@ author_profile: true
           margin-right:1rem;">
   HydroML 2024 Symposium
 </a>       
-**Location:** Richland, WA  
+**Location:** Richland, WA, USA   
 **Date:** May 2024  
 
 - Introduced an EDNN-based history matching method that provides richer uncertainty estimates in terrestrial water storage simulations, improving confidence in model outputs.
@@ -73,7 +75,7 @@ author_profile: true
           margin-right:1rem;">
   29th Annual CESM Workshop
 </a>   
-**Location:** Boulder, CO  
+**Location:** Boulder, CO, USA     
 **Date:** June 2024  
 
 - Highlighted how pinpointing high-uncertainty regions guides better decision-making and model refinements in climate simulations.
@@ -87,7 +89,7 @@ author_profile: true
           margin-right:1rem;"> 
   College of Engineering Fall Design Showcase
 </a>    
-**Location:** Boise, ID  
+**Location:** Boise, ID, USA    
 **Date:** November 2023  
 
 - Applied EOF and SOM analysis to explore relationships between soil properties and moisture dynamics in CLM5.
@@ -101,7 +103,7 @@ author_profile: true
           margin-right:1rem;"> 
   Boise State University Graduate Showcase
 </a>      
-**Location:** Boise, ID  
+**Location:** Boise, ID, USA     
 **Date:** April 2023  
 
 - Demonstrated how different soil parameter configurations alter moisture patterns, informing improvements to model calibration and prediction accuracy.
@@ -115,7 +117,7 @@ author_profile: true
           margin-right:1rem;"> 
   Research Computing Days
 </a>     
-**Location:** Boise, ID  
+**Location:** Boise, ID, USA      
 **Date:** April 2023  
 
 - Showcased EOF integration for enhanced climate-data feature extraction and interpretability.  
