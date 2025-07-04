@@ -12,7 +12,7 @@ author_profile: true
 **Summary:**  
 This study uses Empirical Orthogonal Function (EOF) analysis to reveal how variations in soil hydraulic parameters drive major differences in soil moisture simulations. The work highlights the uncertainty introduced by different parameterization schemes and calls for improved soil-property representations in land surface models.  
 
-[Read on SIAM News](https://www.siam.org/publications/siam-news/articles/impact-of-soil-hydraulic-parameter-variability-on-soil-moisture-an-empirical-orthogonal-function-analysis)
+[](https://www.siam.org/publications/siam-news/articles/impact-of-soil-hydraulic-parameter-variability-on-soil-moisture-an-empirical-orthogonal-function-analysis)
 
 ---
 ## Zambia Daily Mail Article  
