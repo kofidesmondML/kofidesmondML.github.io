@@ -45,7 +45,7 @@ Technical Skills
   GIS software, Xarray & Dask for multi-dimensional arrays, NetCDF/Zarr formats, climate modeling tools like WRF and CLM5, and operators like CDO and NCO
 
 - **DevOps & Data Engineering**  
-  Docker, Singularity, CI/CD pipelines, Git/GitHub for version control, Linux shell scripting for automation and reproducible environments
+  Docker, Singularity, CI/CD pipelines, Git/GitHub for version control, Linux shell scripting for automation, and reproducible environments
 
 - **Data Visualization**  
   Matplotlib, Cartopy, HoloViews, Plotly, Tableau; experienced in creating insightful and publication-ready graphics for complex scientific data
@@ -55,7 +55,7 @@ Education
 ======
 
 - **Ph.D. in Computing (Data Science)**  
-  [Boise State University](https://www.boisestate.edu/), Boise, ID — Expected Fall 2025  
+  [Boise State University](https://www.boisestate.edu/), Boise, ID, USA — Expected Fall 2025  
 
 - **M.Sc. in Mathematical Sciences (Climate Science)**  
   [African Institute for Mathematical Sciences (AIMS)](https://aims.ac.rw/), Kigali, Rwanda — 2020–2021  
