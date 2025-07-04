@@ -5,6 +5,22 @@ permalink: /presentations/
 author_profile: true
 ---
 
+## Understanding Parameter Uncertainty in CLM5 with Machine Learning for Enhanced Hydrological Predictions  
+**Event:** <a href="https://sites.google.com/boisestate.edu/spuds/home"
+   style="display:inline-block;
+          color:#007bff;
+          text-decoration:none;
+          margin-right:1rem;">
+  The Scientific comPUting and Data Science (SPUDS) Seminar
+</a>     
+**Date:** February 18, 2025  
+
+- Evaluated soil moisture variability across CONUS using EOF analysis  
+- Clustered moisture patterns with EOF–SOM to refine parameter calibration  
+- Quantified epistemic and aleatoric uncertainties in LAI via EDNNs  
+- Extended EDNN framework to predict hydrological variables in ungauged basins
+  
+---
 ## Emulating and Evaluating Uncertainty in CLM5 Simulations Using Evidential Deep Neural Networks  
 **Event:** <a href="https://www.agu.org/annual-meeting-2024"
    style="display:inline-block;
@@ -17,7 +33,23 @@ author_profile: true
 **Date:** December 2024  
 
 - Presented a novel approach utilizing EDNN to deliver enhanced uncertainty estimates in CLM5 simulations and reduce computational costs.
+---
 
+## Assessing Soil Hydraulic Parameter Impacts and Performing Uncertainty Quantification in Climate Model Simulations Using Advanced Analytical Techniques  
+**Event:** <a href="https://sites.google.com/boisestate.edu/spuds/home"
+   style="display:inline-block;
+          color:#007bff;
+          text-decoration:none;
+          margin-right:1rem;">
+  The Scientific comPUting and Data Science (SPUDS) Seminar
+</a>  
+**Date:** October 22, 2024  
+
+- Identified dominant soil moisture variability modes with EOF analysis  
+- Clustered EOF modes by soil texture and climate via SOM  
+- Captured aleatoric & epistemic uncertainties in perturbed ensembles using EDNNs  
+- Tested transferability of methods in CAMELS basins
+  
 ---
 ## History Matching with Evidential Deep Neural Networks to Improve Terrestrial Water Storage Simulations in the Community Land Model  
 **Event:** <a href="https://www.pnnl.gov/events/hydroml-2024-symposium"
