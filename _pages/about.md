@@ -18,7 +18,7 @@ Research Interests
   I develop deep learning surrogates (e.g., [CNNs](https://www.ibm.com/think/topics/convolutional-neural-networks), [LSTMs](https://developer.nvidia.com/discover/lstm)) to emulate complex climate simulations such as [CLM5](https://www.cesm.ucar.edu/models/clm). These models significantly reduce computational costs while maintaining physical fidelity, enabling faster and scalable climate scenario analysis.
 
 - **Uncertainty Quantification & Interpretability**  
-  I apply evidential deep learning to quantify prediction uncertainty in climate and hydrological models. Tools like [SHAP](https://shap.readthedocs.io/en/latest/) and [Sobol indices]https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.sobol_indices.html help ensure that model outputs are transparent, interpretable, and scientifically robust.
+  I apply evidential deep learning to quantify prediction uncertainty in climate and hydrological models. Tools like [SHAP](https://shap.readthedocs.io/en/latest/) and [Sobol indices](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.sobol_indices.html) help ensure that model outputs are transparent, interpretable, and scientifically robust.
 
 - **Geospatial Pattern Analysis**  
   My work involves identifying and analyzing spatial climate patterns using machine learning and statistical techniques. I implement scalable workflows using Self-Organizing Maps (SOMs) and [Empirical Orthogonal Functions (EOFs)](https://ajdawson.github.io/eof2/eofs.html) in Python/[Dask](https://www.dask.org/) to detect anomalies and validate climate models.
