@@ -9,13 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-I'm a data scientist and Ph.D. researcher in Computing (Data Science) at [Boise State University](https://www.boisestate.edu/), based in the [School of Computing](https://www.boisestate.edu/computing/). I specialize in artificial intelligence, machine learning, [high-performance computing (HPC)](https://www.ibm.com/think/topics/hpc), data engineering, hydrology, and climate data science.
+I am a data scientist and Ph.D. researcher in Computing (Data Science) at [Boise State University](https://www.boisestate.edu/), based in the [School of Computing](https://www.boisestate.edu/computing/). I specialize in artificial intelligence, machine learning, [high-performance computing (HPC)](https://www.ibm.com/think/topics/hpc), data engineering, hydrology, and climate data science.
 
 My research focuses on building scalable deep learning models for [computer vision](https://www.ibm.com/think/topics/computer-vision), climate, and hydrological systems. I work extensively with land surface models like CLM5, applying advanced machine-learning techniques to emulate complex simulations with reduced computational cost. A core part of my work involves [uncertainty quantification](https://en.wikipedia.org/wiki/Uncertainty_quantification), enabling more trustworthy model predictions, particularly in high-risk or data-scarce regions.
 
-I place strong emphasis on [interoperability](https://www.ogc.org/about/interoperability/)—ensuring that models, data formats, and computing workflows can integrate smoothly across tools, platforms, and disciplines. From developing machine-learning surrogates that plug into scientific workflows to managing geospatial data pipelines that serve diverse users, my work supports open, modular, and collaborative science.
+I place strong emphasis on [interoperability](https://www.ogc.org/about/interoperability/), ensuring that models, data formats, and computing workflows can integrate smoothly across tools, platforms, and disciplines. From developing machine-learning surrogates that plug into scientific workflows to managing geospatial data pipelines that serve diverse users, my work supports open, modular, and collaborative science.
 
-I'm passionate about bridging scientific research with practical solutions, using AI, geospatial modeling, and data engineering to tackle real-world challenges in climate adaptation, water resource management, and environmental prediction. Through reproducible, interdisciplinary research, I aim to make complex models more accessible, explainable, and impactful.
+I am passionate about bridging scientific research with practical solutions, using AI, geospatial modeling, and data engineering to tackle real-world challenges in climate adaptation, water resource management, and environmental prediction. Through reproducible, interdisciplinary research, I aim to make complex models more accessible, explainable, and impactful.
 
 Research Interests
 ======
