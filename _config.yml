@@ -47,7 +47,7 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 read_more                : "enabled" # if enabled, adds a "read more" link to excerpts
-LinkedIn                 : "https://www.linkedin.com/in/kachinga-silwimba/"
+linkedin                 : "https://www.linkedin.com/in/kachinga-silwimba/"
 future                   : true
 
 # SEO Related
@@ -85,7 +85,7 @@ author:
   bio              : "Ph.D. Candidate at Boise State University in the School of Computing"
   location         : "Boise, ID, USA"
   googlescholar    : "https://scholar.google.com/citations?user=UluXFnQAAAAJ&hl=en"
-  LinkedIn         : "https://www.linkedin.com/in/kachinga-silwimba/"
+  linkedin         : "https://www.linkedin.com/in/kachinga-silwimba/"
   email            :
   bluesky          :  
   uri              : 
