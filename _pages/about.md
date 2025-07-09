@@ -11,7 +11,7 @@ redirect_from:
 
 I am a data scientist and Ph.D. researcher in Computing (Data Science) at [Boise State University](https://www.boisestate.edu/), based in the [School of Computing](https://www.boisestate.edu/computing/). I specialize in artificial intelligence, machine learning, [high-performance computing (HPC)](https://www.ibm.com/think/topics/hpc), data engineering, hydrology, and climate data science.
 
-My research focuses on building scalable deep learning models for [computer vision](https://www.ibm.com/think/topics/computer-vision), climate, and hydrological systems. I work extensively with land surface models like CLM5, applying advanced machine-learning techniques to emulate complex simulations with reduced computational cost. A core part of my work involves [uncertainty quantification](https://en.wikipedia.org/wiki/Uncertainty_quantification), enabling more trustworthy model predictions, particularly in high-risk or data-scarce regions.
+My research focuses on building scalable deep learning models for [computer vision](https://www.ibm.com/think/topics/computer-vision), climate, and hydrological systems. I work extensively with land surface models, such as [CLM5](https://www.cesm.ucar.edu/models/clm), applying advanced machine learning techniques to emulate complex simulations with reduced computational cost. A core part of my work involves [uncertainty quantification](https://en.wikipedia.org/wiki/Uncertainty_quantification), enabling more trustworthy model predictions, particularly in high-risk or data-scarce regions.
 
 I place strong emphasis on [interoperability](https://www.ogc.org/about/interoperability/), ensuring that models, data formats, and computing workflows can integrate smoothly across tools, platforms, and disciplines. From developing machine-learning surrogates that plug into scientific workflows to managing geospatial data pipelines that serve diverse users, my work supports open, modular, and collaborative science.
 
@@ -21,7 +21,7 @@ Research Interests
 ======
 
 - **Machine Learning Emulators for Climate Models**  
-  I develop deep learning surrogates (e.g., [CNNs](https://www.ibm.com/think/topics/convolutional-neural-networks), [LSTMs](https://developer.nvidia.com/discover/lstm)) to emulate complex climate simulations such as [CLM5](https://www.cesm.ucar.edu/models/clm). These models significantly reduce computational costs while maintaining physical fidelity, enabling faster and scalable climate scenario analysis.
+  I develop deep learning surrogates (e.g., [CNNs](https://www.ibm.com/think/topics/convolutional-neural-networks), [LSTMs](https://developer.nvidia.com/discover/lstm)) to emulate complex climate simulations such as CLM5. These models significantly reduce computational costs while maintaining physical fidelity, enabling faster and scalable climate scenario analysis.
 
 - **Uncertainty Quantification & Interpretability**  
   I apply evidential deep learning to quantify prediction uncertainty in climate and hydrological models. Tools like [SHAP](https://shap.readthedocs.io/en/latest/) and [Sobol indices](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.sobol_indices.html) help ensure that model outputs are transparent, interpretable, and scientifically robust.
