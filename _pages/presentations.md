@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Understanding Parameter Uncertainty in CLM5 with Machine Learning for Enhanced Hydrological Predictions  
-**Event:** <a href="https://sites.google.com/boisestate.edu/spuds/home"
+**Event:** <a href="https://sites.google.com/boisestate.edu/spuds/home#h.j6w9uj5xhnh"
    style="display:inline-block;
           color:#007bff;
           text-decoration:none;
@@ -37,7 +37,7 @@ author_profile: true
   
 ---
 ## Assessing Soil Hydraulic Parameter Impacts and Performing Uncertainty Quantification in Climate Model Simulations Using Advanced Analytical Techniques  
-**Event:** <a href="https://sites.google.com/boisestate.edu/spuds/home"
+**Event:** <a href="https://sites.google.com/boisestate.edu/spuds/home#h.wst0qqe51wrf"
    style="display:inline-block;
           color:#007bff;
           text-decoration:none;
