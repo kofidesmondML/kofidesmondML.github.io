@@ -8,11 +8,22 @@ author_profile: true
 {% include base_path %}
 
 ## SIAM Article 
+**Enhancing Leaf Area Index Simulations With Evidential Deep Learning: A Probabilistic Approach to Uncertainty and Sensitivity**   
+**Published:** July 16, 2025  
+
+**Summary:**  
+This article presents a significant advancement in LAI simulation through evidential deep learning, offering high accuracy, reduced computational demands, and detailed uncertainty quantification. It identifies key parameters for model improvement and calls for future integration with observational data, making it a cornerstone for enhancing climate and ecological modeling efforts. 
+
+[Read on SIAM News](https://www.siam.org/publications/siam-news/articles/enhancing-leaf-area-index-simulations-with-evidential-deep-learning-a-probabilistic-approach-to-uncertainty-and-sensitivity/){: .btn .btn-outline .mr-4}
+
+---  
+
+## SIAM Article 
 **Impact of Soil Hydraulic Parameter Variability on Soil Moisture: An Empirical Orthogonal Function Analysis**   
 **Published:** February 6, 2025  
 
 **Summary:**  
-This study uses Empirical Orthogonal Function (EOF) analysis to reveal how variations in soil hydraulic parameters drive major differences in soil moisture simulations. The work highlights the uncertainty introduced by different parameterization schemes and calls for improved soil-property representations in land surface models.  
+This articles uses Empirical Orthogonal Function (EOF) analysis to reveal how variations in soil hydraulic parameters drive major differences in soil moisture simulations. The work highlights the uncertainty introduced by different parameterization schemes and calls for improved soil-property representations in land surface models.  
 
 [Read on SIAM News](https://www.siam.org/publications/siam-news/articles/impact-of-soil-hydraulic-parameter-variability-on-soil-moisture-an-empirical-orthogonal-function-analysis){: .btn .btn-outline .mr-4}
 
