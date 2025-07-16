@@ -33,7 +33,7 @@ This articles uses Empirical Orthogonal Function (EOF) analysis to reveal how va
 **Published:** December 5, 2024  
 
 **Summary:**  
-Drawing on his 2019 thesis, Kachinga Silwimba proposes a foot-operated toilet valve to cut hand contact with surfaces and curb cholera transmission. Inspired by pandemic-era hands-free designs, the mechanism promises affordability and ease of adoption—pending sponsorship for prototyping.  
+Drawing on my undergraduate thesis, I proposed a foot-operated toilet valve to cut hand contact with surfaces and curb cholera transmission. Inspired by pandemic-era hands-free designs, the mechanism promises affordability and ease of adoption, pending sponsorship for prototyping.  
 
 [Read on Zambia Daily Mail](https://www.daily-mail.co.zm/2024/12/05/can-foot-flush-reduce-cholera-spreading/){: .btn .btn-outline .mr-4}
 
