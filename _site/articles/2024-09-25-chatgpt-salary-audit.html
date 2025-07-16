@@ -1,0 +1,361 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Asking an AI for salary negotiation advice is a matter of concern: Controlled experimental perturbation of ChatGPT for protected and non-protected group discrimination on a contextual task with no clear ground truth answers - Desmond Kofi Boateng</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Desmond Kofi Boateng">
+<meta property="og:title" content="Asking an AI for salary negotiation advice is a matter of concern: Controlled experimental perturbation of ChatGPT for protected and non-protected group discrimination on a contextual task with no clear ground truth answers">
+
+
+  <link rel="canonical" href="http://0.0.0.0:4000/articles/2024-09-25-chatgpt-salary-audit">
+  <meta property="og:url" content="http://0.0.0.0:4000/articles/2024-09-25-chatgpt-salary-audit">
+
+
+
+  <meta property="og:description" content="We conducted controlled experimental bias audits for four versions of ChatGPT, which we asked to recommend an opening offer in salary negotiations for a new hire. We submitted 98,800 prompts to each version, systematically varying the employee’s gender, university, and major, and tested prompts in voice of each side of the negotiation: the employee versus employer. We find ChatGPT as a multi-model platform is not robust and consistent enough to be trusted for such a task. We observed statistically significant salary offers when varying gender for all four models, although with smaller gaps than for other attributes tested. The largest gaps were different model versions and between the employee- vs employer-voiced prompts. We also observed substantial gaps when varying university and major, but many of the biases were not consistent across model versions. We tested for fictional and fraudulent universities and found wildly inconsistent results across cases and model versions. We make broader contributions to the AI/ML fairness literature. Our scenario and our experimental design differ from mainstream AI/ML auditing efforts in key ways. Bias audits typically test discrimination for protected classes like gender, which we contrast with testing non-protected classes of university and major. Asking for negotiation advice includes how aggressive one ought to be in a negotiation relative to known empirical salary distributions and scales, which is a deeply contextual and personalized task that has no objective ground truth to validate. These results raise concerns for the specific model versions we tested and ChatGPT as a multi-model platform in continuous development. Our epistemology does not permit us to definitively certify these models as either generally biased or unbiased on the attributes we test, but our study raises matters of concern for stakeholders to further investigate.">
+
+
+
+
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2025-02-07T00:00:00-07:00">
+
+
+
+
+
+
+  <meta name="google-site-verification" content="3hdu0GcCfjZ6WbPpApjcdcEGjsCPDcDn1QLtBm-DRBg" />
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://0.0.0.0:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Desmond Kofi Boateng Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://0.0.0.0:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<meta name="theme-color" content="#ffffff">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+<meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://0.0.0.0:4000/">Desmond Kofi Boateng</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://0.0.0.0:4000/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://0.0.0.0:4000/newsletter/">Newsletters</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://0.0.0.0:4000/presentations/">Talks</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://0.0.0.0:4000/cv/">Resume</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://0.0.0.0:4000/contact/">Contact</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+    <script type="application/ld+json">
+    {
+	"@context": "http://schema.org/",
+	"@type": "CreativeWork",
+	"author": "R. Stuart Geiger",
+        "name": "Asking an AI for salary negotiation advice is a matter of concern: Controlled experimental perturbation of ChatGPT for protected and non-protected group discrimination on a contextual task with no clear ground truth answers",
+	"datePublished": "2025-02-07 00:00:00 -0700",
+	"description": "We conducted controlled experimental bias audits for four versions of ChatGPT, which we asked to recommend an opening offer in salary negotiations for a new hire. We submitted 98,800 prompts to each version, systematically varying the employee's gender, university, and major, and tested prompts in voice of each side of the negotiation: the employee versus employer. We find ChatGPT as a multi-model platform is not robust and consistent enough to be trusted for such a task. We observed statistically significant salary offers when varying gender for all four models, although with smaller gaps than for other attributes tested. The largest gaps were different model versions and between the employee- vs employer-voiced prompts. We also observed substantial gaps when varying university and major, but many of the biases were not consistent across model versions. We tested for fictional and fraudulent universities and found wildly inconsistent results across cases and model versions. We make broader contributions to the AI/ML fairness literature. Our scenario and our experimental design differ from mainstream AI/ML auditing efforts in key ways. Bias audits typically test discrimination for protected classes like gender, which we contrast with testing non-protected classes of university and major. Asking for negotiation advice includes how aggressive one ought to be in a negotiation relative to known empirical salary distributions and scales, which is a deeply contextual and personalized task that has no objective ground truth to validate. These results raise concerns for the specific model versions we tested and ChatGPT as a multi-model platform in continuous development. Our epistemology does not permit us to definitively certify these models as either generally biased or unbiased on the attributes we test, but our study raises matters of concern for stakeholders to further investigate. "
+    }
+    </script>
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div>
+
+  <div class="author__avatar">
+    
+    	<img src="http://0.0.0.0:4000/images/assets/kofidesmond.jpeg" class="author__avatar" alt="Desmond Boateng">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Desmond Boateng</h3>
+    <p class="author__bio">Ph.D. Student at Boise State University in the School of Computing</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Boise, ID, USA</li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="https://www.linkedin.com/in/desmond-boateng"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
+      
+      
+      
+      
+      
+      
+        <li><a href="https://github.com/kofidesmondML"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=DoFAsxYAAAAJ"><i class="fa fa-fw fa-chain" aria-hidden="true"></i> Google Scholar</a></li>
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Asking an AI for salary negotiation advice is a matter of concern: Controlled experimental perturbation of ChatGPT for protected and non-protected group discrimination on a contextual task with no clear ground truth answers">
+    <meta itemprop="description" content="We conducted controlled experimental bias audits for four versions of ChatGPT, which we asked to recommend an opening offer in salary negotiations for a new hire. We submitted 98,800 prompts to each version, systematically varying the employee’s gender, university, and major, and tested prompts in voice of each side of the negotiation: the employee versus employer. We find ChatGPT as a multi-model platform is not robust and consistent enough to be trusted for such a task. We observed statistically significant salary offers when varying gender for all four models, although with smaller gaps than for other attributes tested. The largest gaps were different model versions and between the employee- vs employer-voiced prompts. We also observed substantial gaps when varying university and major, but many of the biases were not consistent across model versions. We tested for fictional and fraudulent universities and found wildly inconsistent results across cases and model versions. We make broader contributions to the AI/ML fairness literature. Our scenario and our experimental design differ from mainstream AI/ML auditing efforts in key ways. Bias audits typically test discrimination for protected classes like gender, which we contrast with testing non-protected classes of university and major. Asking for negotiation advice includes how aggressive one ought to be in a negotiation relative to known empirical salary distributions and scales, which is a deeply contextual and personalized task that has no objective ground truth to validate. These results raise concerns for the specific model versions we tested and ChatGPT as a multi-model platform in continuous development. Our epistemology does not permit us to definitively certify these models as either generally biased or unbiased on the attributes we test, but our study raises matters of concern for stakeholders to further investigate.">
+    <meta itemprop="datePublished" content="February 07, 2025">
+    
+    
+
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Asking an AI for salary negotiation advice is a matter of concern: Controlled experimental perturbation of ChatGPT for protected and non-protected group discrimination on a contextual task with no clear ground truth answers
+</h1>
+          
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2025-02-07T00:00:00-07:00">February 07, 2025</time></p>
+        
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0318500">Download the article here</a></p>
+
+<p><a href="https://stuartgeiger.com/assets/salary_audit.pdf">Link to Slide Deck</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="http://0.0.0.0:4000/categories/#articles" class="page__taxonomy-item" rel="tag">articles</a>
+    
+    </span>
+  </p>
+
+
+      </footer>
+
+      
+
+<section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=http://0.0.0.0:4000/articles/2024-09-25-chatgpt-salary-audit" class="btn btn--twitter" title="Share on Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://0.0.0.0:4000/articles/2024-09-25-chatgpt-salary-audit" class="btn btn--facebook" title="Share on Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=http://0.0.0.0:4000/articles/2024-09-25-chatgpt-salary-audit" class="btn btn--google-plus" title="Share on Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://0.0.0.0:4000/articles/2024-09-25-chatgpt-salary-audit" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+      
+
+
+  <nav class="pagination">
+    
+      <a href="http://0.0.0.0:4000/articles/2024-01-01" class="pagination--pager" title="Making Algorithms Public: Reimagining Auditing From Matters of Fact to Matters of Concern
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
+
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="http://github.com/kofidesmondML"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="http://0.0.0.0:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 Desmond Kofi Boateng. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    <script src="http://0.0.0.0:4000/assets/js/main.min.js"></script>
+
+
+
+
+
+  </body>
+</html>
+

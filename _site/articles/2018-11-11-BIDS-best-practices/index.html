@@ -1,0 +1,395 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Reports from the BIDS Best Practices in Data Science Series - Desmond Kofi Boateng</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Desmond Kofi Boateng">
+<meta property="og:title" content="Reports from the BIDS Best Practices in Data Science Series">
+
+
+  <link rel="canonical" href="http://0.0.0.0:4000/articles/2018-11-11-BIDS-best-practices/">
+  <meta property="og:url" content="http://0.0.0.0:4000/articles/2018-11-11-BIDS-best-practices/">
+
+
+
+  <meta property="og:description" content="An ongoing series of short papers that report from discussions where we share our experiences doing data science well (or at least better), for many definitions of the term.">
+
+
+
+
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2018-11-11T00:00:00-07:00">
+
+
+
+
+
+
+  <meta name="google-site-verification" content="3hdu0GcCfjZ6WbPpApjcdcEGjsCPDcDn1QLtBm-DRBg" />
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://0.0.0.0:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Desmond Kofi Boateng Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://0.0.0.0:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<meta name="theme-color" content="#ffffff">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+<meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://0.0.0.0:4000/">Desmond Kofi Boateng</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://0.0.0.0:4000/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://0.0.0.0:4000/newsletter/">Newsletters</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://0.0.0.0:4000/presentations/">Talks</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://0.0.0.0:4000/cv/">Resume</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://0.0.0.0:4000/contact/">Contact</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+    <script type="application/ld+json">
+    {
+	"@context": "http://schema.org/",
+	"@type": "CreativeWork",
+	"author": "R. Stuart Geiger",
+        "name": "Reports from the BIDS Best Practices in Data Science Series",
+	"datePublished": "2018-11-11 00:00:00 -0700",
+	"description": "An ongoing series of short papers that report from discussions where we share our experiences doing data science well (or at least better), for many definitions of the term."
+    }
+    </script>
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div>
+
+  <div class="author__avatar">
+    
+    	<img src="http://0.0.0.0:4000/images/assets/kofidesmond.jpeg" class="author__avatar" alt="Desmond Boateng">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Desmond Boateng</h3>
+    <p class="author__bio">Ph.D. Student at Boise State University in the School of Computing</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Boise, ID, USA</li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="https://www.linkedin.com/in/desmond-boateng"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
+      
+      
+      
+      
+      
+      
+        <li><a href="https://github.com/kofidesmondML"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=DoFAsxYAAAAJ"><i class="fa fa-fw fa-chain" aria-hidden="true"></i> Google Scholar</a></li>
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Reports from the BIDS Best Practices in Data Science Series">
+    <meta itemprop="description" content="An ongoing series of short papers that report from discussions where we share our experiences doing data science well (or at least better), for many definitions of the term.">
+    <meta itemprop="datePublished" content="November 11, 2018">
+    
+    
+
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Reports from the BIDS Best Practices in Data Science Series
+</h1>
+          
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2018-11-11T00:00:00-07:00">November 11, 2018</time></p>
+        
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p>This series is a set of reflections and write-ups from meetings we regularly hold at the Berkeley Institute for Data Science, where we bring a wide range of people from across the UC-Berkeley campus and beyond together to discuss how to do something challenging in data science well – or at least better.</p>
+
+<h2 id="challenges-of-doing-data-intensive-research-in-teams-labs-and-groups">Challenges of Doing Data-Intensive Research in Teams, Labs, and Groups</h2>
+
+<p><a href="https://osf.io/preprints/socarxiv/a7b3m/download">Download PDF here.</a></p>
+
+<p>Abstract: What are the challenges and best practices for doing data-intensive research in teams, labs, and other groups? This paper reports from a discussion in which researchers from many different disciplines and departments shared their experiences on doing data science in their domains. The issues we discuss range from the technical to the social, including issues with getting on the same computational stack, workflow and pipeline management, handoffs, composing a well-balanced team, dealing with fluid membership, fostering coordination and communication, and not abandoning best practices when deadlines loom. We conclude by reflecting about the extent to which there are universal best practices for all teams, as well as how these kinds of informal discussions around the challenges of doing research can help combat impostor syndrome.</p>
+
+<p>Recommended citation: R. Stuart Geiger, Dan Sholler, Aaron Culich, Ciera Martinez, Fernando Hoces de la Guardia, François Lanusse, Kellie Ottoboni, Marla Stuart, Maryam Vareth, Nelle Varoquaux, Sara Stoudt, and Stéfan van der Walt. “Challenges of Doing Data-Intensive Research in Teams, Labs, and Groups: Report from the BIDS Best Practices in Data Science Series.” <em>BIDS Best Practices in Data Science Series.</em> Berkeley Institute for Data Science: Berkeley, California. 2018. <a href="https://osf.io/preprints/socarxiv/a7b3m/download">doi:10.31235/osf.io/a7b3m</a></p>
+
+<h2 id="best-practices-for-fostering-diversity-and-inclusion-in-data-science">Best Practices for Fostering Diversity and Inclusion in Data Science</h2>
+
+<p><a href="https://osf.io/preprints/socarxiv/8gsjz/download">Download PDF here.</a></p>
+
+<p>Abstract: What actions can we take to foster diverse and inclusive workplaces in the broad fields around data science? This paper reports from a discussion in which researchers from many different disciplines and departments raised questions and shared their experiences with various aspects around diversity, inclusion, and equity. The issues we discuss include fostering inclusive interpersonal and small group dynamics, rules and codes of conduct, increasing diversity in less-representative groups and disciplines, organizing events for diversity and inclusion, and long-term efforts to champion change.</p>
+
+<p>Recommended citation: R. Stuart Geiger, Orianna DeMasi, Aaron Culich, Andreas Zoglauer, Diya Das, Fernando Hoces de la Guardia, Kellie Ottoboni, Marsha Fenner, Nelle Varoquaux, Rebecca Barter, Richard Barnes, Sara Stoudt, Stacey Dorton, Stéfan
+van der Walt. “Best Practices for Fostering Diversity and Inclusion in Data Science: Report from the BIDS Best Practices in Data Science Series.” <em>BIDS Best Practices in Data Science Series.</em> Berkeley, CA: Berkeley Institute for Data Science. 2019.
+<a href="https://doi.org/10.31235/osf.io/8gsjz">doi:10.31235/osf.io/8gsjz</a></p>
+
+<h2 id="best-practices-for-managing-turnover-in-data-science-groups-teams-and-labs">Best Practices for Managing Turnover in Data Science Groups, Teams, and Labs</h2>
+
+<p><a href="https://osf.io/preprints/socarxiv/wsxru/download">Download PDF here.</a></p>
+
+<p>Abstract: Turnover is a fact of life for any project, and academic research teams can face particularly high levels of people who come and go through the duration of a project. In this article, we discuss the challenges of turnover and some potential practices for helping manage it, particularly for computational- and data-intensive research teams and projects. The topics we discuss include establishing and implementing data management plans, file and format standardization, workflow and process documentation, clear team roles, and check-in and check-out procedures.</p>
+
+<p>Recommended citation: Recommended citation: Dan Sholler, Diya Das, Fernando Hoces de la Guardia, Chris Hoffmann, François Lanusse, Nelle Varoquaux, Rolando Garcia, R. Stuart Geiger, Shana McDevitt, Scott Peterson, Sara Stoudt. “Best Practices for Managing Turnover in Data Science Groups, Teams, and Labs.” BIDS Best Practices in Data Science Series. Berkeley, CA: Berkeley Institute for Data Science. 2019. <a href="https://doi.org/10.31235/osf.io/wsxru">doi:10.31235/osf.io/wsxru</a></p>
+
+<h2 id="resistance-to-adoption-of-best-practices">Resistance to Adoption of Best Practices</h2>
+
+<p><a href="https://osf.io/preprints/socarxiv/qr8cz/download">Download PDF here.</a></p>
+
+<p>Abstract: There are many recommendations of “best practices” for those doing data science, data-intensive research, and research in general. These documents usually present a particular vision of how people should work with data and computing, recommending specific tools, activities, mechanisms, and sensibilities. However, implementation of best (or better) practices in any setting is often met with resistance from individuals and groups, who perceive some drawbacks to the proposed changes to everyday practice. We offer some definitions of resistance, identify the sources of researchers’ hesitancy to adopt new ways of working, and describe some of the ways resistance is manifested in data science teams. We then offer strategies for overcoming resistance based on our group members’ experiences working alongside resistors or resisting change themselves. Our discussion concluded with many remaining questions left to tackle, some of which are listed at the end of this piece.</p>
+
+<p>Recommended citation: Recommended citation: Dan Sholler, Sara Stoudt, Chris Kennedy, Fernando Hoces de la Guardia, François Lanusse, Karthik Ram, Kellie Ottoboni, Marla Stuart, Maryam Vareth, Nelle Varoquaux, Rebecca Barter, R. Stuart Geiger, Scott Peterson, and Stéfan van der Walt. “Resistance to Adoption of Best Practices.” BIDS Best Practices in Data Science Series. Berkeley Institute for Data Science: Berkeley, California. 2019. <a href="https://osf.io/preprints/socarxiv/qr8cz/download">doi:10.31235/osf.io/qr8cz</a></p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="http://0.0.0.0:4000/categories/#articles" class="page__taxonomy-item" rel="tag">articles</a>
+    
+    </span>
+  </p>
+
+
+      </footer>
+
+      
+
+<section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=http://0.0.0.0:4000/articles/2018-11-11-BIDS-best-practices/" class="btn btn--twitter" title="Share on Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://0.0.0.0:4000/articles/2018-11-11-BIDS-best-practices/" class="btn btn--facebook" title="Share on Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=http://0.0.0.0:4000/articles/2018-11-11-BIDS-best-practices/" class="btn btn--google-plus" title="Share on Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://0.0.0.0:4000/articles/2018-11-11-BIDS-best-practices/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+      
+
+
+  <nav class="pagination">
+    
+      <a href="http://0.0.0.0:4000/articles/2018-06-01-data-science-careers/" class="pagination--pager" title="Career Paths and Prospects in Academic Data Science: Report of the Moore-Sloan Data Science Environments Survey
+">Previous</a>
+    
+    
+      <a href="http://0.0.0.0:4000/articles/2019-09-09-cscw-note/" class="pagination--pager" title="The Rise and Fall of the Note: Changing Paper Lengths in ACM CSCW, 2000-2018
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
+
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="http://github.com/kofidesmondML"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="http://0.0.0.0:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 Desmond Kofi Boateng. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    <script src="http://0.0.0.0:4000/assets/js/main.min.js"></script>
+
+
+
+
+
+  </body>
+</html>
+
