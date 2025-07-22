@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-## About Me
-
 Hello! I'm **Desmond Kofi Boateng**, a PhD student in Computing at **Boise State University**. My current research focuses on **kernel methods in operator learning** and **neural networks for solving parametric partial differential equations (PDEs)**.
 
 ### Academic Background
