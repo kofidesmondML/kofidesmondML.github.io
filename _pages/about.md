@@ -9,102 +9,69 @@ redirect_from:
 
 {% include base_path %}
 
-I am a data scientist and Ph.D. Candidate in Computing (Data Science) at [Boise State University](https://www.boisestate.edu/), based in the [School of Computing](https://www.boisestate.edu/computing/). I specialize in artificial intelligence, machine learning, [high-performance computing (HPC)](https://www.ibm.com/think/topics/hpc), data engineering, hydrology, and climate data science.
+## About Me
 
-My research focuses on building scalable deep learning models for [computer vision](https://www.ibm.com/think/topics/computer-vision), climate, and hydrological systems. I work extensively with land surface models, such as [CLM5](https://www.cesm.ucar.edu/models/clm), applying advanced machine learning techniques to emulate complex simulations with reduced computational cost. A core part of my work involves [uncertainty quantification](https://en.wikipedia.org/wiki/Uncertainty_quantification), enabling more trustworthy model predictions, particularly in high-risk or data-scarce regions.
+Hello! I'm **Desmond Kofi Boateng**, a PhD student in Computing at **Boise State University**. My current research focuses on **kernel methods in operator learning** and **neural networks for solving parametric partial differential equations (PDEs)**.
 
-I place strong emphasis on [interoperability](https://www.ogc.org/about/interoperability/), ensuring that models, data formats, and computing workflows can integrate smoothly across tools, platforms, and disciplines. From developing machine learning surrogates that plug into scientific workflows to managing geospatial data pipelines that serve diverse users, my work supports open, modular, and collaborative science.
+### Academic Background
 
-I am passionate about bridging scientific research with practical solutions, using AI, geospatial modeling, and data engineering to tackle real-world challenges in climate adaptation, water resource management, and environmental prediction. Through reproducible, interdisciplinary research, I aim to make complex models more accessible, explainable, and impactful.
+- **PhD in Computing**, Boise State University (USA)  
+  *Research: Kernel methods, neural operators, PDE learning*
 
-Research Interests
-======
+- **Master's in Mathematical Sciences**, AIMS Rwanda  
+  *Thesis: Comparative Analysis of Singular Value Based Decomposition Methods for Image and Video Compression (in Julia)*
 
-- **Machine Learning Emulators for Climate Models**  
-  I develop deep learning surrogates (e.g., [CNNs](https://www.ibm.com/think/topics/convolutional-neural-networks), [LSTMs](https://developer.nvidia.com/discover/lstm)) to emulate complex climate simulations such as CLM5. These models significantly reduce computational costs while maintaining physical fidelity, enabling faster and scalable climate scenario analysis.
+- **Bachelor's in Mathematics**, University of Ghana  
+  *Thesis: Khovanov's Categorification of the Jones Polynomial*
 
-- **Uncertainty Quantification & Interpretability**  
-  I apply evidential deep learning to quantify prediction uncertainty in climate and hydrological models. Tools like [SHAP](https://shap.readthedocs.io/en/latest/) and [Sobol indices](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.sobol_indices.html) help ensure that model outputs are transparent, interpretable, and scientifically robust.
+### Professional Experience
 
-- **Geospatial Pattern Analysis**  
-  My work involves identifying and analyzing spatial climate patterns using machine learning and statistical techniques. I implement scalable workflows using Self-Organizing Maps (SOMs) and [Empirical Orthogonal Functions (EOFs)](https://ajdawson.github.io/eof2/eofs.html) in Python/[Dask](https://www.dask.org/) to detect anomalies and validate climate models.
+Previously, I worked as a **Machine Learning Engineer at Cape Wesley Consulting**, where I built:
+- High-level web scrapers for large-scale data extraction
+- NLP models for text classification
+- Solutions for computer vision and image processing tasks
 
-- **High-Performance Computing (HPC) & Big Data**  
-  I optimize environmental data workflows on multi-node GPU-accelerated clusters using tools like Dask, [Xarray](https://docs.xarray.dev/en/stable/), [Docker](https://www.docker.com/), and [Singularity](https://docs.sylabs.io/guides/3.5/user-guide/introduction.html). This includes efficient job scheduling, parallel processing, and large-scale data engineering for climate and Earth system modeling.
+### Skills & Tools
 
-- **Hybrid Climate Modeling with AI**  
-  I explore integrated modeling approaches that combine physics-based climate models (e.g., CLM5, [WRF](https://www.mmm.ucar.edu/models/wrf)) with machine learning. This hybrid methodology improves prediction reliability and supports actionable insights for climate mitigation and decision-making.
+- **Languages**: Python, Julia, SQL, Bash  
+- **ML/DL**: PyTorch, scikit-learn, XGBoost, Transformers, OpenCV  
+- **Math/Scientific**: PDEs, Kernel methods, SVD, Linear algebra, Category theory  
+- **NLP & CV**: Text classification, vectorization, image/video compression  
+- **Data**: pandas, NumPy, Spark, Selenium, BeautifulSoup  
+- **Cloud & DevOps**: AWS, Git, Docker
 
-Technical Skills
-======
+### Research Interests
 
-- **Programming & Scripting**  
-  Python (NumPy, Pandas, SciPy, Xarray), R, MATLAB, Java, Scala, PySpark, Bash, SQL
+- Neural and kernel operators  
+- Scientific Machine Learning (SciML)  
+- Image and video compression  
+- Operator learning for PDEs  
+- NLP and computer vision techniques  
+- Matrix decomposition methods in machine learning
 
-- **Machine Learning & AI**  
-  PyTorch, TensorFlow, Keras, scikit-learn; experience with deep learning (CNNs, RNNs), generative AI, and large language models
+### Current Papers I'm Reading
 
-- **Big Data & HPC**  
-  Dask, Apache Spark, Hadoop; GPU-accelerated computing, Slurm-based job scheduling, parallel processing, memory optimization; cloud platforms including AWS and Google Cloud
+- [Neural Operators: Learning Maps Between Function Spaces](https://arxiv.org/abs/2108.08481)  
+- [Kernel Methods for Operator Learning](https://arxiv.org/abs/2206.11838)  
+- [Fourier Neural Operator for Parametric PDEs](https://arxiv.org/abs/2010.08895)  
+- [Data-driven Discovery of PDEs in Scientific Domains](https://arxiv.org/abs/1711.10561)
 
-- **Geospatial & Climate Tools**  
-  GIS software, Xarray & Dask for multi-dimensional arrays, NetCDF/Zarr formats, climate modeling tools like WRF and CLM5, and operators like CDO and NCO
+### Fun Facts
 
-- **DevOps & Data Engineering**  
-  Docker, Singularity, CI/CD pipelines, Git/GitHub for version control, Linux shell scripting for automation, and reproducible environments
+- 🚴 I once biked 30 miles in 3 hours (I’m getting faster!)  
+- 🧗 I love climbing at my local gym  
+- 🍳 I enjoy experimenting in the kitchen  
+- 🧭 Pronouns: *cos(x) / sin(x)*
 
-- **Data Visualization**  
-  Matplotlib, Cartopy, HoloViews, Plotly, Tableau; experienced in creating insightful and publication-ready graphics for complex scientific data
+### Let's Collaborate
 
+I'm open to collaborations in:
+- Image processing  
+- Neural operator research  
+- SciML and applied mathematical modeling
 
-Education
-======
+### Contact
 
-- **Ph.D. in Computing (Data Science)**  
-  [Boise State University](https://www.boisestate.edu/), Boise, ID, USA — Expected Fall 2025  
-
-- **M.Sc. in Mathematical Sciences (Climate Data Science)**  
-  [African Institute for Mathematical Sciences (AIMS)](https://aims.ac.rw/), Kigali, Rwanda — 2020–2021  
-
-- **B.Sc. in Physics**  
-  [Copperbelt University](https://www.cbu.ac.zm/), Kitwe, Zambia — 2015–2019  
-
-Recent Updates
-======
-
-- **June 2025**  
-  Awarded the **[AWWA Pacific Northwest Section Scholarship](https://www.pnws-awwa.org/careers/scholarship-application/)** for graduate research excellence in water and climate data science, recognizing leadership in water resource analytics.
-
-- **Summer 2025**  
-  Received a **Travel Award** to attend the **[NCAR CESM Tutorial](https://www.cesm.ucar.edu/events/tutorials)** in Boulder, CO, for advanced training in Earth system modeling and simulation.
-
-- **September 2024**  
-  Selected as a **[William Averette Anderson Fund Fellow](https://billandersonfund.org/)**, with a focus on hazard mitigation and disaster resilience. Participated in national workshops on community-engaged research.
-
-- **July 2024**  
-  Presented machine learning research on climate pattern analysis at the **SIAM Annual Meeting** and **[SIAM Mathematics of Data Science (MDS)](https://www.siam.org/conferences-events/past-event-archive/mds24/)** conference, supported by [SIAM Travel Awards](https://www.siam.org/conferences-events/conference-support/travel-and-registration-support/).
-
-- **June 2024**  
-  Completed a **Graduate Research Fellowship** at **[NCAR Advanced Study Program](https://edec.ucar.edu/advanced-study-program)**, developing adaptive learning techniques for climate model calibration and evaluation.
-
-
-Awards & Fellowships
-======
-
-- **2025**  
-  - AWWA Pacific Northwest Scholarship Recipient   
-  - [NCAR CESM Tutorial](https://www.cesm.ucar.edu/events/tutorials/cesm) Travel Award – Funding for advanced CESM model training
-
-- **2024**  
-  - William Averette Anderson Fund Fellow – National fellowship in hazard & disaster mitigation  
-  - NCAR ASP Graduate Research Fellow – NSF-supported climate research residency  
-  - SIAM Travel Awards (AN24, MDS24) – For presentations at major applied mathematics/data science conferences
-
-- **2021**  
-  - [Boise State GEM Scholarship](https://www.boisestate.edu/graduatecollege/funding/merit-based-gem-scholarship/) – Merit-based graduate award  
-  - Graduate Assistantship – Research funding from Boise State University  
-  - AIMS Master's Scholarship (Mastercard Foundation) – Full scholarship for climate-focused graduate studies
-
-- **2015**  
-  - Zambia National Merit Scholarship – Full undergraduate scholarship based on academic excellence at Copperbelt University
+- 📧 Email: desmond@capewesley.com  
+- 💼 [LinkedIn](https://linkedin.com/in/desmondkofiboateng)
 
