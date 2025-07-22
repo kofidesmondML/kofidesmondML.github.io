@@ -87,7 +87,6 @@ Recent Updates
 - **June 2024**  
   Completed a **Graduate Research Fellowship** at **[NCAR Advanced Study Program](https://edec.ucar.edu/advanced-study-program)**, developing adaptive learning techniques for climate model calibration and evaluation.
 
----
 
 Awards & Fellowships
 ======
