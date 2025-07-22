@@ -47,7 +47,7 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 read_more                : "enabled" # if enabled, adds a "read more" link to excerpts
-linkedin                 : "desmond-boateng" # "https://www.linkedin.com/in/dkboateng013/"
+linkedin                 : "dkboateng013" # "https://www.linkedin.com/in/dkboateng013/"
 future                   : true
 
 # SEO Related
@@ -81,7 +81,7 @@ twitter:
 # Site Author
 author:
   name             : "Desmond Kofi Boateng"
-  avatar           : "assets/kachinga.png"
+  avatar           : "assets/kofidesmond.jpeg"
   bio              : "Ph.D. Student at Boise State University in the School of Computing"
   location         : "Boise, ID, USA"
   googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=en&user=zxr2xdcAAAAJ"
