@@ -7,16 +7,16 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kachinga Silwimba"
+title                    : "Desmond Kofi Boateng"
 title_separator          : "-"
-name                     : &name "Kachinga Silwimba"
+name                     : &name "Desmond Kofi Boateng"
 description              : &description "personal description"
-url                      : https://kachingasilwimba.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://kofidesmondML.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "kachingasilwimba.github.io"
+repository               : "kofidesmondML.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
-seo_description          : "Site Kachinga Silwimba, Graduate Research Assistant at Boise State University"
+seo_description          : "Site Desmond Kofi Boateng, Graduate Research Assistant at Boise State University"
 words_per_minute         : 160
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -47,7 +47,7 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 read_more                : "enabled" # if enabled, adds a "read more" link to excerpts
-linkedin                 : "kachinga-silwimba" # "https://www.linkedin.com/in/kachinga-silwimba/"
+linkedin                 : "desmond-boateng" # "https://www.linkedin.com/in/dkboateng013/"
 future                   : true
 
 # SEO Related
@@ -80,12 +80,12 @@ twitter:
 
 # Site Author
 author:
-  name             : "Kachinga Silwimba"
+  name             : "Desmond Kofi Boateng"
   avatar           : "assets/kachinga.png"
-  bio              : "Ph.D. Candidate at Boise State University in the School of Computing"
+  bio              : "Ph.D. Student at Boise State University in the School of Computing"
   location         : "Boise, ID, USA"
-  googlescholar    : "https://scholar.google.com/citations?user=UluXFnQAAAAJ&hl=en"
-  linkedin         : "kachinga-silwimba" # "https://www.linkedin.com/in/kachinga-silwimba/"
+  googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=en&user=zxr2xdcAAAAJ"
+  linkedin         : "desmond-boateng" # "https://www.linkedin.com/in/dkboateng013/"
   email            :
   bluesky          :  
   uri              : 
@@ -95,7 +95,7 @@ author:
   flickr           :
   # facebook         : 
   foursquare       :
-  github           : "kachingasilwimba"
+  github           : "kofidesmondML"
   google_plus      :
   keybase          :
   instagram        : 
