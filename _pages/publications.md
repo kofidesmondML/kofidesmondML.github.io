@@ -17,8 +17,6 @@ author_profile: true
 ["Soil Parameterization in Land Surface Models Drives Large Discrepancies in Soil Moisture Predictions Across Hydrologically Complex Regions of the Contiguous United States"](https://scholar.google.com/scholar?q=Soil+Parameterization+in+Land+Surface+Models+Drives+Large+Discrepancies+in+Soil+Moisture+Predictions), *EGUsphere*, 1–36  
 [Paper](https://scholar.google.com/scholar?q=Soil+Parameterization+in+Land+Surface+Models+Drives+Large+Discrepancies+in+Soil+Moisture+Predictions){: .btn .btn-outline .mr-4}
 
----
-
 ### 2024
 * **K. Silwimba**, A.N. Flores, C. Becker, L.R. Hawkins, K. Dagon & I. Cionni  
 ["History Matching with Evidential Deep Neural Networks to Improve Terrestrial Water Storage Simulations in the Community Land Model"](https://scholar.google.com/scholar?q=History+Matching+with+Evidential+Deep+Neural+Networks+to+Improve+Terrestrial+Water+Storage+Simulations+in+Community+Land+Model), *AGU Fall Meeting Abstracts*, GC11T-0152  
@@ -31,8 +29,6 @@ author_profile: true
 * S. Akor, **K. Silwimba**, A.N. Flores  
 ["Deep Learning Approach to Predict Snow Water Equivalent from Atmospheric Forcings"](https://scholar.google.com/scholar?q=Deep+Learning+Approach+to+Predict+Snow+Water+Equivalent+from+Atmospheric+Forcings), *Authorea Preprints*  
 [Paper](https://scholar.google.com/scholar?q=Deep+Learning+Approach+to+Predict+Snow+Water+Equivalent+from+Atmospheric+Forcings){: .btn .btn-outline .mr-4}
-
----
 
 ### 2023
 * E. Malichi, M. Ndengo, D. Mukonda, S. Kiilu, D. Azamuke, **K. Silwimba**  
