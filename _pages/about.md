@@ -70,6 +70,6 @@ I'm open to collaborations in:
 
 ### Contact
 
-- 📧 Email: desmond@capewesley.com  
+- 📧 Email: desmondboateng@u.boisestate.edu  
 - 💼 [LinkedIn](https://linkedin.com/in/desmondkofiboateng)
 
