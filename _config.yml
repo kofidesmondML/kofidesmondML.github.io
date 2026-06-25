@@ -263,7 +263,6 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-redirect-from
 
 # Mimic GitHub Pages with --safe
@@ -272,7 +271,6 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-redirect-from
 
 # Archives
