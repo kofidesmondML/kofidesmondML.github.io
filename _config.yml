@@ -1,3 +1,4 @@
+```yml
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -10,27 +11,29 @@ locale                   : "en-US"
 title                    : "Desmond Kofi Boateng"
 title_separator          : "-"
 name                     : &name "Desmond Kofi Boateng"
-description              : &description "personal description"
-url                      : https://kofidesmond.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "kofidesmond.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
-seo_description          : "Site Desmond Boateng, Graduate Research Assistant at Boise State University"
+description              : &description "Ph.D. student in Computing with a Data Science emphasis at Boise State University. My research focuses on scientific machine learning, operator learning, kernel methods, neural operators, and numerical methods for PDEs."
+url                      : "https://kofidesmondml.github.io"
+baseurl                  : ""
+repository               : "kofidesmondML/kofidesmondML.github.io"
+teaser                   :
+breadcrumbs              : false
+seo_description          : "Desmond Kofi Boateng, Ph.D. student in Computing at Boise State University working on scientific machine learning, operator learning, kernel methods, neural operators, and PDEs."
 words_per_minute         : 160
+
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               :
   disqus:
     shortname            :
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  # facebook:
+    server               :
+  facebook:
     appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    num_posts            :
+    colorscheme          :
+
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -43,11 +46,13 @@ staticman:
     date:
       type               : "date"
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : "iso8601"
+
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-read_more                : "enabled" # if enabled, adds a "read more" link to excerpts
-linkedin                 : "desmond-boateng" # "https://www.linkedin.com/in/dkboateng013/"
+  path                   :
+
+read_more                : "enabled"
+linkedin                 : "desmond-boateng"
 future                   : true
 
 # SEO Related
@@ -59,59 +64,43 @@ yandex_site_verification :
 # Social Sharing
 twitter:
 
-# facebook:
-#   username               : "Desmond Kofi Boateng"
-#   app_id                 :
-#   publisher              :
-# og_image                 : #"site-logo.png" # Open Graph/Twitter default site image
-# # For specifying social profiles
-# # - https://developers.google.com/structured-data/customize/social-profiles
-# social:
-#   type                   : # Person or Organization (defaults to Person)
-#   name                   : # If the user or organization name differs from the site's name
-#   links: # An array of links to social media profiles
 # Analytics
-#analytics:
-#  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
-#  google:
-#    tracking_id          : "UA-79273-2"
-
-
+# analytics:
+#   provider             : "google-universal"
+#   google:
+#     tracking_id        :
 
 # Site Author
 author:
-  name             : "Desmond Boateng"
+  name             : "Desmond Kofi Boateng"
   avatar           : "assets/kofidesmond.jpeg"
-  bio              : "Ph.D. Student at Boise State University in the School of Computing"
+  bio              : "Ph.D. Student in Computing at Boise State University"
   location         : "Boise, ID, USA"
-  googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=en&user=DoFAsxYAAAAJ"
-  linkedin         : "desmond-boateng" # "https://www.linkedin.com/in/dkboateng013/"
+  googlescholar    : "https://scholar.google.com/citations?user=zxr2xdcAAAAJ&hl=en"
+  linkedin         : "desmond-boateng"
   email            :
-  bluesky          :  
-  uri              : 
+  bluesky          :
+  uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  # facebook         : 
   foursquare       :
   github           : "kofidesmondML"
   google_plus      :
   keybase          :
-  instagram        : 
+  instagram        :
   lastfm           :
-  orcid            : 
+  orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-#  twitter          : *twitter
   vine             :
   weibo            :
   xing             :
   youtube          :
-
 
 # Reading Files
 include:
@@ -121,6 +110,7 @@ include:
   - "papers/*.pdf"
   - "portfolio/papers/*.pdf"
   - "portfolio/*.pdf"
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -144,12 +134,13 @@ exclude:
   - Rakefile
   - README
   - tmp
+
 keep_files:
   - .git
   - .svn
+
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -157,7 +148,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -169,7 +159,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
 
 # Collections
 collections:
@@ -189,7 +178,6 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-
 # Defaults
 defaults:
   # _posts
@@ -203,6 +191,7 @@ defaults:
       comments: true
       share: true
       related: true
+
   # _pages
   - scope:
       path: ""
@@ -210,6 +199,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+
   # _teaching
   - scope:
       path: ""
@@ -220,6 +210,7 @@ defaults:
       author_profile: true
       share: false
       comments: false
+
   # _articles
   - scope:
       path: ""
@@ -229,6 +220,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+
   # _expressions
   - scope:
       path: ""
@@ -237,7 +229,8 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: true
+
   # _talks
   - scope:
       path: ""
@@ -255,19 +248,15 @@ defaults:
       layout: presentations
       author_profile: true
       share: true
-      
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
+  style: compressed
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: America/Denver # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: America/Denver
 
 # Plugins
 gems:
@@ -277,50 +266,32 @@ gems:
   - jekyll-feed
   - jemoji
   - jekyll-redirect-from
-# mimic GitHub Pages with --safe
+
+# Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
+  - jekyll-redirect-from
 
 # Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
+
 article_archive:
   type: liquid
   path: /articles/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-#
 
 # HTML Compression
-# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
+```

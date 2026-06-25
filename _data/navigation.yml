@@ -1,22 +1,18 @@
-# main links links
+```yml
+# main links
 main:
+  - title: "About"
+    url: /
+
+  - title: "Research"
+    url: /research/
+
   - title: "Publications"
     url: /publications/
 
-  - title: "Newsletters"
-    url: /newsletter/    
-    
-  - title: "Talks"
-    url: /presentations/
-
-  # - title: "Talks"
-  #   url: /sitemap/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
-  - title: "Resume"
+  - title: "CV"
     url: /cv/
-  
+
   - title: "Contact"
     url: /contact/
+```
