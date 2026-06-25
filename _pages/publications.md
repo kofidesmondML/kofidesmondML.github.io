@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: archive
 title: "Publications"
@@ -27,5 +26,3 @@ This page will be updated with publications, preprints, posters, and conference 
   Investigating neural operator architectures that can evaluate solutions directly at query locations.
 
 ## Posters and Presentations
-
-```

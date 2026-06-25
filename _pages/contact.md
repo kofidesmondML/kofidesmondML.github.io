@@ -1,4 +1,3 @@
-```markdown
 ---
 permalink: /contact/
 title: "Contact"
@@ -15,4 +14,3 @@ You can find me through the following platforms:
 - **Google Scholar:** [Desmond Kofi Boateng](https://scholar.google.com/citations?user=zxr2xdcAAAAJ&hl=en)
 
 I am open to conversations about scientific machine learning, operator learning, kernel methods, neural operators, numerical methods, and applied mathematics research.
-```

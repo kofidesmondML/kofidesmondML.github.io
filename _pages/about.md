@@ -1,4 +1,3 @@
-```markdown
 ---
 permalink: /
 title: "About"
@@ -47,4 +46,3 @@ My current work explores operator learning architectures such as **DeepONets**, 
 - **Scientific Computing:** NumPy, SciPy, JAX, numerical PDE methods
 - **High-Performance Computing:** Slurm, GPU computing, Linux environments
 - **Research Tools:** Git/GitHub, LaTeX, Jupyter, VS Code
-```

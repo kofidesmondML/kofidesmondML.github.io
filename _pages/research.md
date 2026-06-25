@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: archive
 title: "Research"
@@ -43,4 +42,3 @@ I am exploring neural operator architectures that can evaluate solutions directl
 ## Broader Goals
 
 My long-term research goal is to develop reliable scientific machine learning methods that can be used for computational science, engineering, and applied mathematics problems.
-```
