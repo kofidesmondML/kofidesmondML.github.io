@@ -29,3 +29,5 @@ bundle exec jekyll build --destination dist
 ```
 
 The production site is published from this repository with GitHub Pages.
+See `MAINTENANCE.md` for the update cadence, publication checklist, and search
+visibility plan.
