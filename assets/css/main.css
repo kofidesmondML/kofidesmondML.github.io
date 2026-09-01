@@ -6,7 +6,7 @@
   --white: #fffdf8;
   --coral: #e7794f;
   --coral-light: #ef9c71;
-  --teal: #1a716d;
+  --teal: #0f5f5c;
   --sky: #b9d9dc;
   --line: rgba(7, 27, 42, 0.16);
   --muted: #526571;
@@ -570,14 +570,14 @@ h3 {
   position: absolute;
   right: 30px;
   top: 22px;
-  color: rgba(7, 27, 42, 0.1);
+  color: #596873;
   font-family: var(--serif);
   font-size: 6.5rem;
   line-height: 1;
 }
 
 .research-card-featured .card-index {
-  color: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 253, 248, 0.58);
 }
 
 .tag-list {
@@ -1236,7 +1236,7 @@ h3 {
   padding-top: 26px;
   margin-top: 56px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
-  color: rgba(255, 253, 248, 0.42);
+  color: rgba(255, 253, 248, 0.6);
   font-size: 0.7rem;
 }
 
