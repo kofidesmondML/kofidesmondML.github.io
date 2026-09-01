@@ -1,0 +1,31 @@
+- year: "2026"
+  status: Accepted poster
+  title: Cross-Grid Generalization for Some Operator Learning Frameworks
+  venue: SIAM Conference on Mathematics of Data Science
+  location: Salt Lake City, Utah
+  date: November 16–20, 2026
+  authors: Desmond Kofi Boateng and Grady B. Wright
+
+- year: "2026"
+  status: Manuscript in preparation
+  title: Adaptive Kernel Expansion DeepONets (AKED)
+  venue: Ongoing research
+  authors: Desmond Kofi Boateng and Grady B. Wright
+
+- year: "2025"
+  status: Poster
+  title: Polyharmonic Splines for Operator Learning
+  venue: CBMS-AMML, University of Houston
+  date: December 2025
+
+- year: "2025"
+  status: Poster
+  title: Polyharmonic Splines for Operator Learning
+  venue: SIAM Pacific Northwest Biennial Meeting, University of Washington
+  date: October 2025
+
+- year: "2023"
+  status: Talk
+  title: Singular Value Decomposition Based Methods for Image and Video Compression with Julia
+  venue: Conference on Mathematics and Its Applications, AIMS Ghana
+  date: "2023"

@@ -1,0 +1,39 @@
+---
+title: "Projects | Desmond Kofi Boateng"
+description: "Selected open-source scientific computing, machine learning, numerical linear algebra, and data projects by Desmond Kofi Boateng."
+permalink: /projects/
+---
+
+<header class="page-hero">
+  <div class="shell narrow-shell">
+    <p class="eyebrow">Projects</p>
+    <h1>Open work across scientific computing and applied machine learning.</h1>
+    <p>Selected public repositories that show how I approach mathematical problems, data pipelines, and reproducible software.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="shell project-grid project-grid-full">
+    {% for project in site.data.projects %}
+      <article class="project-card">
+        <p class="card-kicker">{{ project.type }}</p>
+        <h2>{{ project.name }}</h2>
+        <p>{{ project.description }}</p>
+        <div class="project-meta">{{ project.tools }}</div>
+        <a class="stretched-link" href="{{ project.url }}" aria-label="View {{ project.name }} on GitHub">View repository <span aria-hidden="true">↗</span></a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section project-context">
+  <div class="shell narrow-shell">
+    <p class="eyebrow">Research code</p>
+    <h2>Why the flagship work is not linked here</h2>
+    <p>
+      AKED, TreeAKED, and current operator-learning benchmarks are active research.
+      Their public summaries appear on the <a href="{{ '/research/' | relative_url }}">Research page</a>;
+      manuscripts and code will be linked when they are ready for public release.
+    </p>
+  </div>
+</section>

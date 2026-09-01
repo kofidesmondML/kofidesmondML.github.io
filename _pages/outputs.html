@@ -1,0 +1,47 @@
+---
+title: "Research Outputs | Desmond Kofi Boateng"
+description: "Posters, talks, works in preparation, conference participation, and research milestones by Desmond Kofi Boateng."
+permalink: /outputs/
+---
+
+<header class="page-hero">
+  <div class="shell narrow-shell">
+    <p class="eyebrow">Research outputs</p>
+    <h1>Work in preparation, accepted presentations, and selected talks.</h1>
+    <p>A concise record of research contributions and professional development, maintained alongside my CV.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="shell outputs-layout">
+    <div class="outputs-main">
+      {% for output in site.data.outputs %}
+        <article class="output-item">
+          <div class="output-year">{{ output.year }}</div>
+          <div>
+            <p class="card-kicker">{{ output.status }}</p>
+            <h2>{{ output.title }}</h2>
+            {% if output.authors %}<p class="output-authors">{{ output.authors }}</p>{% endif %}
+            <p>{{ output.venue }}{% if output.location %} · {{ output.location }}{% endif %}{% if output.date %}<br>{{ output.date }}{% endif %}</p>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+
+    <aside class="milestones-card">
+      <p class="eyebrow">2026 milestones</p>
+      <h2>Selected programs</h2>
+      <div class="milestone">
+        <span>September 13–18</span>
+        <strong>Kernel Approximation and Gaussian Processes</strong>
+        <p>Selected participant, Banff International Research Station.</p>
+      </div>
+      <div class="milestone">
+        <span>June</span>
+        <strong>URSSI Summer School</strong>
+        <p>Selected participant and $1,300 travel-grant recipient, Northeastern University, Boston.</p>
+      </div>
+      <a class="button button-secondary" href="{{ '/assets/files/desmond_boateng_CV.pdf' | relative_url }}">Read the full CV</a>
+    </aside>
+  </div>
+</section>

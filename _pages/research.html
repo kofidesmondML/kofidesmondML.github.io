@@ -1,0 +1,107 @@
+---
+title: "Research | Desmond Kofi Boateng"
+description: "Desmond Kofi Boateng’s research in adaptive kernel expansions, DeepONets, polyharmonic splines, cross-grid generalization, and numerical PDEs."
+permalink: /research/
+---
+
+<header class="page-hero">
+  <div class="shell narrow-shell">
+    <p class="eyebrow">Research</p>
+    <h1>Learning solution operators without losing the mathematics.</h1>
+    <p>
+      I study how kernel approximation, neural operators, and numerical analysis can
+      work together to learn maps between function spaces—especially for systems
+      governed by partial differential equations.
+    </p>
+  </div>
+</header>
+
+<section class="section research-detail" id="aked">
+  <div class="shell research-detail-grid">
+    <aside>
+      <span class="detail-number">01</span>
+      <p>Adaptive bases</p>
+    </aside>
+    <article>
+      <p class="eyebrow">Ongoing · Manuscript in preparation</p>
+      <h2>AKED &amp; TreeAKED</h2>
+      <p class="lead">
+        Adaptive Kernel Expansion DeepONets (AKED) investigate whether the learned
+        representation in a DeepONet can respond more directly to the geometry and
+        resolution of function samples.
+      </p>
+      <p>
+        The work enriches the trunk representation with trainable kernel expansions,
+        then evaluates how those choices affect accuracy and generalization across
+        computational grids. TreeAKED is an ongoing hierarchical extension of this
+        direction, organizing kernel expansions to support richer multiscale structure.
+      </p>
+      <div class="question-grid" aria-label="AKED research questions">
+        <div>
+          <h3>Representation</h3>
+          <p>Which kernel bases best capture the geometry of PDE solution operators?</p>
+        </div>
+        <div>
+          <h3>Generalization</h3>
+          <p>Can a model trained at one discretization remain reliable on another?</p>
+        </div>
+        <div>
+          <h3>Scalability</h3>
+          <p>How can structured expansions stay computationally practical?</p>
+        </div>
+      </div>
+      <p class="research-note">With Professor Grady B. Wright, Boise State University.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section research-detail research-detail-alt" id="polyharmonic-splines">
+  <div class="shell research-detail-grid">
+    <aside>
+      <span class="detail-number">02</span>
+      <p>Kernel methods</p>
+    </aside>
+    <article>
+      <p class="eyebrow">Presented · 2025</p>
+      <h2>Polyharmonic Splines for Operator Learning</h2>
+      <p class="lead">
+        This project studies polyharmonic splines as interpretable kernel bases for
+        operator-learning architectures.
+      </p>
+      <p>
+        Polyharmonic splines bring a classical approximation-theory perspective to
+        scientific machine learning. Their structure can support discretization-aware
+        function representations while avoiding the need to preselect a shape parameter.
+        I presented this work at the SIAM Pacific Northwest Biennial Meeting and at
+        CBMS-AMML in 2025.
+      </p>
+      <ul class="feature-list">
+        <li>Connects classical kernel approximation with neural operator models.</li>
+        <li>Studies accuracy across multiple PDE benchmarks and sample grids.</li>
+        <li>Uses reproducible GPU experiments to compare architectural choices.</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section class="section benchmark-section">
+  <div class="shell">
+    <div class="section-heading split-heading">
+      <div>
+        <p class="eyebrow">Research practice</p>
+        <h2>From mathematical structure to reproducible experiments.</h2>
+      </div>
+      <p>
+        My workflow combines theory, implementation, and systematic benchmarking on
+        local accelerators and Boise State’s Borah high-performance computing cluster.
+      </p>
+    </div>
+    <div class="benchmark-grid">
+      <div><span>01</span><strong>Formulate</strong><p>Identify operator structure and approximation constraints.</p></div>
+      <div><span>02</span><strong>Implement</strong><p>Build reproducible pipelines in PyTorch, JAX, NumPy, and SciPy.</p></div>
+      <div><span>03</span><strong>Benchmark</strong><p>Compare methods across grids, hyperparameters, and PDE families.</p></div>
+      <div><span>04</span><strong>Interpret</strong><p>Connect observed behavior back to numerical and statistical principles.</p></div>
+    </div>
+    <p class="benchmark-note"><strong>Selected PDE benchmarks:</strong> advection, Burgers’ equation, Darcy flow, Helmholtz problems, structural mechanics, and Navier–Stokes.</p>
+  </div>
+</section>

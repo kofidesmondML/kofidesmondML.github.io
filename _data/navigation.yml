@@ -1,16 +1,10 @@
-# main links
-main:
-  - title: "About"
-    url: /
-
-  - title: "Research"
-    url: /research/
-
-  - title: "Publications"
-    url: /publications/
-
-  - title: "CV"
-    url: /cv/
-
-  - title: "Contact"
-    url: /contact/
+- label: Research
+  url: /research/
+- label: Projects
+  url: /projects/
+- label: Outputs
+  url: /outputs/
+- label: CV
+  url: /cv/
+- label: Contact
+  url: /contact/

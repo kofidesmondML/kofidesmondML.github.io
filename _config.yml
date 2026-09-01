@@ -1,293 +1,54 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+title: "Desmond Kofi Boateng"
+tagline: "Scientific machine learning researcher"
+description: >-
+  Desmond Kofi Boateng is a PhD researcher at Boise State University working on
+  scientific machine learning, operator learning, kernel methods, and numerical PDEs.
+url: "https://kofidesmondml.github.io"
+baseurl: ""
+repository: "kofidesmondML/kofidesmondML.github.io"
+lang: "en-US"
+timezone: "Etc/UTC"
 
-# Site Settings
-locale                   : "en-US"
-title                    : "Desmond Kofi Boateng"
-title_separator          : "-"
-name                     : &name "Desmond Kofi Boateng"
-description              : &description "Ph.D. student in Computing with a Data Science emphasis at Boise State University. My research focuses on scientific machine learning, operator learning, kernel methods, neural operators, and numerical methods for PDEs."
-url                      : "https://kofidesmondml.github.io"
-baseurl                  : ""
-repository               : "kofidesmondML/kofidesmondML.github.io"
-teaser                   :
-breadcrumbs              : false
-seo_description          : "Desmond Kofi Boateng, Ph.D. student in Computing at Boise State University working on scientific machine learning, operator learning, kernel methods, neural operators, and PDEs."
-words_per_minute         : 160
-
-comments:
-  provider               :
-  disqus:
-    shortname            :
-  discourse:
-    server               :
-  facebook:
-    appid                :
-    num_posts            :
-    colorscheme          :
-
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601"
-
-atom_feed:
-  path                   :
-
-read_more                : "enabled"
-linkedin                 : "desmond-boateng"
-future                   : true
-
-# SEO Related
-google_site_verification : "3hdu0GcCfjZ6WbPpApjcdcEGjsCPDcDn1QLtBm-DRBg"
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
-
-# Social Sharing
-twitter:
-
-# Analytics
-# analytics:
-#   provider             : "google-universal"
-#   google:
-#     tracking_id        :
-
-# Site Author
 author:
-  name             : "Desmond Kofi Boateng"
-  avatar           : "assets/kofidesmond.jpeg"
-  bio              : "Ph.D. Student in Computing at Boise State University"
-  location         : "Boise, ID, USA"
-  googlescholar    : "https://scholar.google.com/citations?user=zxr2xdcAAAAJ&hl=en"
-  linkedin         : "desmond-boateng"
-  email            :
-  bluesky          :
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  foursquare       :
-  github           : "kofidesmondML"
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  orcid            :
-  pinterest        :
-  soundcloud       :
-  stackoverflow    :
-  steam            :
-  tumblr           :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
+  name: "Desmond Kofi Boateng"
+  email: "desmondboateng@u.boisestate.edu"
+  location: "Boise, Idaho, USA"
+  affiliation: "Boise State University"
+  github: "https://github.com/kofidesmondML"
+  linkedin: "https://www.linkedin.com/in/dkboateng013"
+  scholar: "https://scholar.google.com/citations?hl=en&user=DoFAsxYAAAAJ"
 
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-  - "*.pdf"
-  - "papers/*.pdf"
-  - "portfolio/papers/*.pdf"
-  - "portfolio/*.pdf"
+social_image: "/assets/images/og-card.png"
 
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - README
-  - tmp
-
-keep_files:
-  - .git
-  - .svn
-
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Conversion
+permalink: pretty
 markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-# Markdown Processing
 kramdown:
   input: GFM
-  hard_wrap: false
   auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
 
-# Collections
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  articles:
-    output: true
-    permalink: /:collection/:path/
-  expressions:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-  presentations:
-    output: true
-    permalink: /:collection/:path/
+plugins:
+  - jekyll-sitemap
 
-# Defaults
+include:
+  - _pages
+
+exclude:
+  - .bundle
+  - .git
+  - .github
+  - .jekyll-cache
+  - .openai
+  - .sass-cache
+  - dist
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - vendor
+
 defaults:
-  # _posts
   - scope:
       path: ""
-      type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      read_time: false
-      author_profile: true
-      share: false
-      comments: false
-
-  # _articles
-  - scope:
-      path: ""
-      type: articles
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-
-  # _expressions
-  - scope:
-      path: ""
-      type: expressions
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
-
-  # _presentations
-  - scope:
-      path: ""
-      type: presentations
-    values:
-      layout: presentations
-      author_profile: true
-      share: true
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Outputting
-permalink: /:categories/:title/
-timezone: America/Denver
-
-# Plugins
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-redirect-from
-
-# Mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-redirect-from
-
-# Archives
-category_archive:
-  type: liquid
-  path: /categories/
-
-tag_archive:
-  type: liquid
-  path: /tags/
-
-article_archive:
-  type: liquid
-  path: /articles/
-
-# HTML Compression
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+      layout: default
+      image: "/assets/images/og-card.png"

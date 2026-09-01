@@ -1,21 +1,78 @@
-{% include base_path %}
+{% assign page_title = page.title | default: site.title %}
+{% assign page_description = page.description | default: site.description %}
+{% assign canonical_url = page.url | absolute_url %}
+{% assign social_image = page.image | default: site.social_image | absolute_url %}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071b2a">
+  <title>{{ page_title | escape }}</title>
+  <meta name="description" content="{{ page_description | strip_html | strip_newlines | escape }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="manifest" href="{{ '/manifest.webmanifest' | relative_url }}">
 
-<meta charset="utf-8">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:title" content="{{ page_title | escape }}">
+  <meta property="og:description" content="{{ page_description | strip_html | strip_newlines | escape }}">
+  <meta property="og:url" content="{{ canonical_url }}">
+  <meta property="og:image" content="{{ social_image }}">
+  <meta property="og:image:alt" content="Desmond Kofi Boateng — scientific machine learning researcher">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page_title | escape }}">
+  <meta name="twitter:description" content="{{ page_description | strip_html | strip_newlines | escape }}">
+  <meta name="twitter:image" content="{{ social_image }}">
 
-{% include seo.html %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
-
-<meta http-equiv="cleartype" content="on">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "{{ site.url }}/#person",
+        "name": "Desmond Kofi Boateng",
+        "givenName": "Desmond Kofi",
+        "familyName": "Boateng",
+        "url": "{{ site.url }}/",
+        "image": "{{ '/assets/images/desmond-kofi-boateng.jpg' | absolute_url }}",
+        "email": "mailto:{{ site.author.email }}",
+        "jobTitle": "PhD Student in Computing",
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "Boise State University",
+          "url": "https://www.boisestate.edu/"
+        },
+        "alumniOf": [
+          {"@type": "CollegeOrUniversity", "name": "African Institute for Mathematical Sciences Rwanda"},
+          {"@type": "CollegeOrUniversity", "name": "University of Ghana"}
+        ],
+        "sameAs": [
+          "{{ site.author.github }}",
+          "{{ site.author.linkedin }}",
+          "{{ site.author.scholar }}"
+        ],
+        "knowsAbout": [
+          "Scientific machine learning",
+          "Operator learning",
+          "Kernel methods",
+          "Neural operators",
+          "Numerical partial differential equations",
+          "High-performance computing"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "url": "{{ site.url }}/",
+        "name": "{{ site.title }}",
+        "description": "{{ site.description | strip_newlines }}",
+        "inLanguage": "en-US",
+        "about": {"@id": "{{ site.url }}/#person"}
+      }
+    ]
+  }
+  </script>
+</head>

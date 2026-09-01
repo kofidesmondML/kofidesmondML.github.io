@@ -1,0 +1,39 @@
+- name: SVD Image Compression
+  type: Numerical computing
+  description: >-
+    Experiments with singular-value-decomposition methods for compressing images,
+    connected to MSc research on image and video compression with Julia.
+  tools: Julia · Linear algebra · SVD
+  url: https://github.com/kofidesmondML/imagecompression-svd
+
+- name: Ghana Forest Change Detection
+  type: Applied machine learning
+  description: >-
+    A data-driven exploration of forest-cover change in Ghana, translating
+    geospatial observations into an interpretable environmental analysis.
+  tools: Python · Geospatial data · Visualization
+  url: https://github.com/kofidesmondML/Ghana-Forest-Cover-
+
+- name: Housing Availability Checker
+  type: Research software
+  description: >-
+    A practical data-collection workflow for monitoring housing listings and
+    turning scattered web information into structured, searchable results.
+  tools: Python · Data pipelines · Automation
+  url: https://github.com/kofidesmondML/housing_scraper
+
+- name: Fake News Detection
+  type: Natural language processing
+  description: >-
+    A text-classification project that studies how machine-learning models can
+    distinguish unreliable news content from credible reporting.
+  tools: Python · NLP · Classification
+  url: https://github.com/kofidesmondML/FakeNewsDetection
+
+- name: Learning JAX
+  type: Scientific computing
+  description: >-
+    Working examples and experiments for differentiable, accelerator-ready
+    scientific computing with JAX.
+  tools: JAX · Python · Automatic differentiation
+  url: https://github.com/kofidesmondML/Learning-Jax

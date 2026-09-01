@@ -1,0 +1,10 @@
+{
+  "name": "Desmond Kofi Boateng",
+  "short_name": "DKB",
+  "description": "Scientific machine learning research portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f0e7",
+  "theme_color": "#071b2a",
+  "icons": []
+}
