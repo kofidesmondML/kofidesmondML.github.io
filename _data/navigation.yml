@@ -1,10 +1,23 @@
+- label: Home
+  url: /
+
 - label: Research
   url: /research/
+
 - label: Projects
   url: /projects/
+
 - label: Outputs
   url: /outputs/
+
+- label: Notes
+  url: /notes/
+
 - label: CV
-  url: /cv/
-- label: Contact
-  url: /contact/
+  url: /assets/files/desmond_boateng_CV.pdf
+
+- label: Software
+  url: https://github.com/kofidesmondML
+
+- label: Scholar
+  url: https://scholar.google.com/citations?hl=en&user=DoFAsxYAAAAJ

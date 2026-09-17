@@ -1,0 +1,22 @@
+---
+title: "Research Notes | Desmond Kofi Boateng"
+description: "Informal notes on kernel approximation, scientific machine learning, numerical PDEs, papers, and computational experiments."
+permalink: /notes/
+---
+
+<h2>Research notes</h2>
+
+<p class="intro">
+  Informal writing about concepts, papers, computational experiments, and questions I am currently
+  exploring. These entries are working notes rather than peer-reviewed publications.
+</p>
+
+{% for note in site.data.notes %}
+  <div class="note-item">
+    <h3><a href="{{ note.url | relative_url }}">{{ note.title }}</a></h3>
+    <p class="meta">{{ note.date }} · {{ note.status }}</p>
+    <p>{{ note.excerpt }}</p>
+    <p class="tag-line">{{ note.tags }}</p>
+    <p><a href="{{ note.url | relative_url }}">Read note &rarr;</a></p>
+  </div>
+{% endfor %}

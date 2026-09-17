@@ -1,13 +1,13 @@
 title: "Desmond Kofi Boateng"
-tagline: "Scientific machine learning researcher"
+tagline: "Computational mathematician"
 description: >-
-  Desmond Kofi Boateng is a PhD researcher at Boise State University working on
-  scientific machine learning, operator learning, kernel methods, and numerical PDEs.
+  Desmond Kofi Boateng is a PhD student at Boise State University working on
+  kernel approximation, scientific machine learning, operator learning, and numerical PDEs.
 url: "https://kofidesmondml.github.io"
 baseurl: ""
 repository: "kofidesmondML/kofidesmondML.github.io"
 lang: "en-US"
-timezone: "Etc/UTC"
+timezone: "America/Boise"
 
 author:
   name: "Desmond Kofi Boateng"

@@ -4,13 +4,13 @@
 {% assign social_image = page.image | default: site.social_image | absolute_url %}
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#071b2a">
+  <meta name="theme-color" content="#0033a0">
   <title>{{ page_title | escape }}</title>
   <meta name="description" content="{{ page_description | strip_html | strip_newlines | escape }}">
   <link rel="canonical" href="{{ canonical_url }}">
   <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
-  <link rel="manifest" href="{{ '/manifest.webmanifest' | relative_url }}">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ site.title | escape }}">
@@ -18,7 +18,7 @@
   <meta property="og:description" content="{{ page_description | strip_html | strip_newlines | escape }}">
   <meta property="og:url" content="{{ canonical_url }}">
   <meta property="og:image" content="{{ social_image }}">
-  <meta property="og:image:alt" content="Desmond Kofi Boateng — scientific machine learning researcher">
+  <meta property="og:image:alt" content="Desmond Kofi Boateng — computational mathematician">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ page_title | escape }}">
   <meta name="twitter:description" content="{{ page_description | strip_html | strip_newlines | escape }}">
@@ -34,8 +34,6 @@
         "@type": "Person",
         "@id": "{{ site.url }}/#person",
         "name": "Desmond Kofi Boateng",
-        "givenName": "Desmond Kofi",
-        "familyName": "Boateng",
         "url": "{{ site.url }}/",
         "image": "{{ '/assets/images/desmond-kofi-boateng.jpg' | absolute_url }}",
         "email": "mailto:{{ site.author.email }}",
@@ -45,22 +43,17 @@
           "name": "Boise State University",
           "url": "https://www.boisestate.edu/"
         },
-        "alumniOf": [
-          {"@type": "CollegeOrUniversity", "name": "African Institute for Mathematical Sciences Rwanda"},
-          {"@type": "CollegeOrUniversity", "name": "University of Ghana"}
-        ],
         "sameAs": [
           "{{ site.author.github }}",
           "{{ site.author.linkedin }}",
           "{{ site.author.scholar }}"
         ],
         "knowsAbout": [
+          "Computational mathematics",
+          "Kernel approximation",
           "Scientific machine learning",
           "Operator learning",
-          "Kernel methods",
-          "Neural operators",
-          "Numerical partial differential equations",
-          "High-performance computing"
+          "Numerical partial differential equations"
         ]
       },
       {

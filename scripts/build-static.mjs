@@ -104,7 +104,7 @@ function parseFrontMatter(source) {
 
 const site = parseConfig(fs.readFileSync(path.join(root, '_config.yml'), 'utf8'));
 site.data = {};
-for (const name of ['navigation', 'projects', 'outputs']) {
+for (const name of ['navigation', 'projects', 'outputs', 'notes']) {
   site.data[name] = parseList(fs.readFileSync(path.join(root, '_data', `${name}.yml`), 'utf8'));
 }
 

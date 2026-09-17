@@ -1,23 +1,22 @@
-<header class="site-header" data-site-header>
-  <div class="shell header-inner">
-    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Desmond Kofi Boateng, home">
-      <span class="brand-mark" aria-hidden="true">DKB</span>
-      <span class="brand-copy">
-        <strong>Desmond Kofi Boateng</strong>
-        <span>Scientific ML researcher</span>
-      </span>
-    </a>
+<header class="site-profile">
+  <h1><a href="{{ '/' | relative_url }}">{{ site.author.name }}</a></h1>
 
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle>
-      <span class="sr-only">Open navigation</span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </button>
+  <nav class="profile-navigation" aria-label="Primary navigation">
+    {% for item in site.data.navigation %}
+      <a class="nav-button" href="{{ item.url | relative_url }}">{{ item.label }}</a>
+    {% endfor %}
+  </nav>
 
-    <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation" data-navigation>
-      {% for item in site.data.navigation %}
-        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
-      {% endfor %}
-    </nav>
+  <div class="portrait-frame">
+    <img src="{{ '/assets/images/desmond-kofi-boateng.jpg' | relative_url }}" alt="Desmond Kofi Boateng">
   </div>
+
+  <p class="profile-details">
+    PhD Student<br>
+    <a href="https://www.boisestate.edu/computing/">School of Computing</a><br>
+    <a href="https://www.boisestate.edu/computing/phd-computing/">Computing PhD Program</a><br>
+    <a href="https://www.boisestate.edu/">Boise State University</a><br>
+    Boise, Idaho, USA<br>
+    <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+  </p>
 </header>

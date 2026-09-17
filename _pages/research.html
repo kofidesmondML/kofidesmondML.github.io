@@ -1,107 +1,73 @@
 ---
 title: "Research | Desmond Kofi Boateng"
-description: "Desmond Kofi Boateng’s research in adaptive kernel expansions, DeepONets, polyharmonic splines, cross-grid generalization, and numerical PDEs."
+description: "Research in kernel approximation, operator learning, scientific machine learning, and numerical PDEs."
 permalink: /research/
 ---
 
-<header class="page-hero">
-  <div class="shell narrow-shell">
-    <p class="eyebrow">Research</p>
-    <h1>Learning solution operators without losing the mathematics.</h1>
-    <p>
-      I study how kernel approximation, neural operators, and numerical analysis can
-      work together to learn maps between function spaces—especially for systems
-      governed by partial differential equations.
-    </p>
-  </div>
-</header>
+<h2>Research</h2>
 
-<section class="section research-detail" id="aked">
-  <div class="shell research-detail-grid">
-    <aside>
-      <span class="detail-number">01</span>
-      <p>Adaptive bases</p>
-    </aside>
-    <article>
-      <p class="eyebrow">Ongoing · Manuscript in preparation</p>
-      <h2>AKED &amp; TreeAKED</h2>
-      <p class="lead">
-        Adaptive Kernel Expansion DeepONets (AKED) investigate whether the learned
-        representation in a DeepONet can respond more directly to the geometry and
-        resolution of function samples.
-      </p>
-      <p>
-        The work enriches the trunk representation with trainable kernel expansions,
-        then evaluates how those choices affect accuracy and generalization across
-        computational grids. TreeAKED is an ongoing hierarchical extension of this
-        direction, organizing kernel expansions to support richer multiscale structure.
-      </p>
-      <div class="question-grid" aria-label="AKED research questions">
-        <div>
-          <h3>Representation</h3>
-          <p>Which kernel bases best capture the geometry of PDE solution operators?</p>
-        </div>
-        <div>
-          <h3>Generalization</h3>
-          <p>Can a model trained at one discretization remain reliable on another?</p>
-        </div>
-        <div>
-          <h3>Scalability</h3>
-          <p>How can structured expansions stay computationally practical?</p>
-        </div>
-      </div>
-      <p class="research-note">With Professor Grady B. Wright, Boise State University.</p>
-    </article>
-  </div>
-</section>
+<p class="intro">
+  I study computational methods for approximating maps between functions, particularly solution
+  operators associated with partial differential equations. My work combines approximation theory,
+  numerical analysis, kernel methods, and machine learning.
+</p>
 
-<section class="section research-detail research-detail-alt" id="polyharmonic-splines">
-  <div class="shell research-detail-grid">
-    <aside>
-      <span class="detail-number">02</span>
-      <p>Kernel methods</p>
-    </aside>
-    <article>
-      <p class="eyebrow">Presented · 2025</p>
-      <h2>Polyharmonic Splines for Operator Learning</h2>
-      <p class="lead">
-        This project studies polyharmonic splines as interpretable kernel bases for
-        operator-learning architectures.
-      </p>
-      <p>
-        Polyharmonic splines bring a classical approximation-theory perspective to
-        scientific machine learning. Their structure can support discretization-aware
-        function representations while avoiding the need to preselect a shape parameter.
-        I presented this work at the SIAM Pacific Northwest Biennial Meeting and at
-        CBMS-AMML in 2025.
-      </p>
-      <ul class="feature-list">
-        <li>Connects classical kernel approximation with neural operator models.</li>
-        <li>Studies accuracy across multiple PDE benchmarks and sample grids.</li>
-        <li>Uses reproducible GPU experiments to compare architectural choices.</li>
-      </ul>
-    </article>
-  </div>
-</section>
+<div class="research-item" id="kernel-operator-learning">
+  <h3>Kernel approximation and operator learning</h3>
+  <p>
+    I investigate how kernel expansions can represent functions and operators on regular grids,
+    irregular grids, and scattered point sets. A central question is how the choice of kernel basis,
+    centers, polynomial augmentation, and regularization influences accuracy and generalization.
+  </p>
+</div>
 
-<section class="section benchmark-section">
-  <div class="shell">
-    <div class="section-heading split-heading">
-      <div>
-        <p class="eyebrow">Research practice</p>
-        <h2>From mathematical structure to reproducible experiments.</h2>
-      </div>
-      <p>
-        My workflow combines theory, implementation, and systematic benchmarking on
-        local accelerators and Boise State’s Borah high-performance computing cluster.
-      </p>
-    </div>
-    <div class="benchmark-grid">
-      <div><span>01</span><strong>Formulate</strong><p>Identify operator structure and approximation constraints.</p></div>
-      <div><span>02</span><strong>Implement</strong><p>Build reproducible pipelines in PyTorch, JAX, NumPy, and SciPy.</p></div>
-      <div><span>03</span><strong>Benchmark</strong><p>Compare methods across grids, hyperparameters, and PDE families.</p></div>
-      <div><span>04</span><strong>Interpret</strong><p>Connect observed behavior back to numerical and statistical principles.</p></div>
-    </div>
-    <p class="benchmark-note"><strong>Selected PDE benchmarks:</strong> advection, Burgers’ equation, Darcy flow, Helmholtz problems, structural mechanics, and Navier–Stokes.</p>
-  </div>
-</section>
+<div class="research-item" id="aked">
+  <h3>Adaptive Kernel Expansion DeepONets</h3>
+  <p class="meta">Ongoing work with Professor Grady B. Wright</p>
+  <p>
+    Adaptive Kernel Expansion DeepONets explore learned kernel representations inside operator-learning
+    architectures. The project studies accuracy, cross-grid evaluation, and the relationship between
+    classical kernel approximation and learned function representations. TreeAKED is a hierarchical
+    extension designed to organize these representations across levels.
+  </p>
+</div>
+
+<div class="research-item" id="phs">
+  <h3>Polyharmonic splines for operator learning</h3>
+  <p>
+    This work studies polyharmonic splines as interpretable, shape-parameter-free kernels for function
+    reconstruction and operator learning. The project connects polynomial augmentation and classical
+    scattered-data approximation with modern learning architectures.
+  </p>
+</div>
+
+<div class="research-item" id="cross-grid">
+  <h3>Cross-grid generalization</h3>
+  <p>
+    Many learned operators are trained and tested on one fixed discretization. I study how kernel and
+    neural-operator models behave when evaluation points, grid resolution, or point distributions change
+    between training and inference.
+  </p>
+</div>
+
+<div class="research-item" id="emerging-directions">
+  <h3>Emerging directions</h3>
+  <p>
+    I am interested in multiscale kernel frames, divergence-free and curl-free approximation,
+    Helmholtz–Hodge decompositions, point-cloud reconstruction, and uncertainty quantification.
+    These directions connect meshfree approximation with physically structured scientific learning.
+  </p>
+</div>
+
+<h2>Computational practice</h2>
+
+<p>
+  My research workflow combines mathematical formulation, reproducible implementation, and systematic
+  experiments on local GPUs and high-performance computing systems. Benchmark problems include
+  advection, Burgers’ equation, Darcy flow, Helmholtz problems, structural mechanics, and Navier–Stokes.
+</p>
+
+<p>
+  Research outputs and presentations are listed on the
+  <a href="{{ '/outputs/' | relative_url }}">Outputs page</a>.
+</p>

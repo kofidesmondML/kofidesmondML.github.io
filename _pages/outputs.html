@@ -1,47 +1,30 @@
 ---
 title: "Research Outputs | Desmond Kofi Boateng"
-description: "Posters, talks, works in preparation, conference participation, and research milestones by Desmond Kofi Boateng."
+description: "Research outputs, posters, talks, manuscripts in preparation, and selected professional activities."
 permalink: /outputs/
 ---
 
-<header class="page-hero">
-  <div class="shell narrow-shell">
-    <p class="eyebrow">Research outputs</p>
-    <h1>Work in preparation, accepted presentations, and selected talks.</h1>
-    <p>A concise record of research contributions and professional development, maintained alongside my CV.</p>
-  </div>
-</header>
+<h2>Research outputs</h2>
 
-<section class="section">
-  <div class="shell outputs-layout">
-    <div class="outputs-main">
-      {% for output in site.data.outputs %}
-        <article class="output-item">
-          <div class="output-year">{{ output.year }}</div>
-          <div>
-            <p class="card-kicker">{{ output.status }}</p>
-            <h2>{{ output.title }}</h2>
-            {% if output.authors %}<p class="output-authors">{{ output.authors }}</p>{% endif %}
-            <p>{{ output.venue }}{% if output.location %} · {{ output.location }}{% endif %}{% if output.date %}<br>{{ output.date }}{% endif %}</p>
-          </div>
-        </article>
-      {% endfor %}
-    </div>
+<p>
+  Posters, talks, manuscripts in preparation, and selected research activities. Published work will
+  also be indexed through my <a href="{{ site.author.scholar }}">Google Scholar profile</a>.
+</p>
 
-    <aside class="milestones-card">
-      <p class="eyebrow">2026 milestones</p>
-      <h2>Selected programs</h2>
-      <div class="milestone">
-        <span>September 13–18</span>
-        <strong>Kernel Approximation and Gaussian Processes</strong>
-        <p>Selected participant, Banff International Research Station.</p>
-      </div>
-      <div class="milestone">
-        <span>June</span>
-        <strong>URSSI Summer School</strong>
-        <p>Selected participant and $1,300 travel-grant recipient, Northeastern University, Boston.</p>
-      </div>
-      <a class="button button-secondary" href="{{ '/assets/files/desmond_boateng_CV.pdf' | relative_url }}">Read the full CV</a>
-    </aside>
+{% for output in site.data.outputs %}
+  <div class="output-item">
+    <h3>{{ output.title }}</h3>
+    <p class="meta">{{ output.year }} · {{ output.status }}</p>
+    {% if output.authors %}<p>{{ output.authors }}</p>{% endif %}
+    <p>
+      {{ output.venue }}{% if output.location %}, {{ output.location }}{% endif %}{% if output.date %}<br>{{ output.date }}{% endif %}
+    </p>
   </div>
-</section>
+{% endfor %}
+
+<h2>Selected programs</h2>
+
+<ul>
+  <li><strong>Kernel Approximation and Gaussian Processes</strong>, Banff International Research Station, September 2026.</li>
+  <li><strong>URSSI Summer School</strong>, Northeastern University, Boston, June 2026.</li>
+</ul>

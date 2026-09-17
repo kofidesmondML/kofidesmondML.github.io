@@ -12,6 +12,8 @@ authoritative source for education, experience, publications, and dates.
 | Public software projects | `_data/projects.yml` |
 | Posters, talks, and manuscripts | `_data/outputs.yml` |
 | Programs, grants, and milestones | `_pages/outputs.html` |
+| Research Notes index | `_pages/notes.html` |
+| Research Note entries | `_data/notes.yml` and the matching page in `_pages/` |
 | Navigation | `_data/navigation.yml` |
 | Public CV | `assets/files/desmond_boateng_CV.pdf` |
 | Contact and social profiles | `_config.yml` |
